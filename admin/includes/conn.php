@@ -3,27 +3,21 @@
 date_default_timezone_set('Asia/Kolkata');
 
 //define environment - change only here for server credentials
-//$environment = 'dev';
-//$environment='demo';
-$environment = 'production';
+// $environment = 'production';
+$environment = 'localhost';
 
 if ($environment == 'production') {
     define('DB_SERVER', 'localhost');
     define('DB_USERNAME', 'dissemin_user18');
     define('DB_PASSWORD', 'sWos$v=;f1!?');
-    define('DB_DATABASE', 'dissemin_db2018');
-    
-    // define('DB_SERVER', 'localhost');
-    // define('DB_USERNAME', 'root');
-    // define('DB_PASSWORD', '');
-    // define('DB_DATABASE', 'dissemin_db2018');
-
+    define('DB_DATABASE', 'dissemin_db2018');    
     $db_name = 'dissemin_db2018';
-} elseif ($environment == 'demo') {
-    $data_server = 'localhost';
-    $db_user = '';
-    $db_pwd = '';
-    $db_name = '';
+} elseif( $environment == 'localhost' ) {
+    define('DB_SERVER', 'localhost');
+    define('DB_USERNAME', 'root');
+    define('DB_PASSWORD', '');
+    define('DB_DATABASE', 'dissemin_db2018');
+    $db_name = 'dissemin_db2018';
 } else {
     $data_server = 'localhost';
     $db_user = '';
@@ -37,11 +31,14 @@ $db = mysqli_select_db($con, $db_name);
 //$con = mysql_connect($data_server, $db_user, $db_pwd);
 //$db = mysql_select_db($db_name, $con);
 
-$base_url = "https://disseminare.com/";
-$admin_base_url = "https://disseminare.com/admin/";
+if ($environment == 'production') {
+    $base_url = "https://disseminare.com/";
+    $admin_base_url = "https://disseminare.com/admin/";
+} elseif($environment == 'localhost') {
+    $base_url = "http://localhost/dc/";
+    $admin_base_url = "http://localhost/dc/admin/";
+}
 
-// $base_url = "http://localhost/dc/";
-// $admin_base_url = "http://localhost/dc/admin/";
 
 //'Define Dynamic Paths'
 $application_name = "Disseminare";
