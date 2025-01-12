@@ -29,11 +29,6 @@
                             <?php
                             echo html_entity_decode($row_slider['body']);
                             ?>
-                            <!--                            <h3>We are best</h3>
-                                                        <h2>For Business <span>Solution</span></h2>
-                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora suscipit rerum repellat quas nihil odio!</p>
-                                                        <a href="#" class="theme-btn">Our services</a>
-                                                        <a href="#" class="theme-btn">About Us</a>-->
                         </div>
                     </div>
                 </div>
