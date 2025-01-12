@@ -1,0 +1,641 @@
+<?xml version="1.0"?>
+<presentation title="Non Fund Based" width="720.0000000" height="405.0000000" thmbWidth="78.0000000" thmbHeight="44.0000000" frameRate="24.0000000" looping="0" startingSlideShow="" pptVersion="2013" type="compound" hasExternalAudio="0" uid="{FBF8CFE7-C9DD-4FBC-9274-4BF5CE1009C9}">
+	<presenters/>
+	<company logoAssetId="imgAsset0" webSite="" webSiteTarget="_blank"/>
+	<references/>
+	<soundAssets>
+		<soundAsset id="sndAsset0" src="sound1.mp3" embedded="0" size="226526" duration="37747"/>
+		<soundAsset id="sndAsset1" src="sound2.mp3" embedded="0" size="190321" duration="31713"/>
+		<soundAsset id="sndAsset2" src="sound3.mp3" embedded="0" size="136404" duration="22727"/>
+		<soundAsset id="sndAsset3" src="sound4.mp3" embedded="0" size="181387" duration="30224"/>
+		<soundAsset id="sndAsset4" src="sound5.mp3" embedded="0" size="200195" duration="33358"/>
+		<soundAsset id="sndAsset5" src="sound6.mp3" embedded="0" size="442037" duration="73665"/>
+		<soundAsset id="sndAsset6" src="sound7.mp3" embedded="0" size="209286" duration="34873"/>
+		<soundAsset id="sndAsset7" src="sound8.mp3" embedded="0" size="359437" duration="59899"/>
+		<soundAsset id="sndAsset8" src="sound9.mp3" embedded="0" size="171042" duration="28500"/>
+		<soundAsset id="sndAsset9" src="sound10.mp3" embedded="0" size="253798" duration="42292"/>
+		<soundAsset id="sndAsset10" src="sound11.mp3" embedded="0" size="388590" duration="64758"/>
+		<soundAsset id="sndAsset11" src="sound12.mp3" embedded="0" size="68851" duration="11468"/>
+		<soundAsset id="sndAsset12" src="sound13.mp3" embedded="0" size="39699" duration="6609"/>
+		<soundAsset id="sndAsset13" src="sound14.mp3" embedded="0" size="38288" duration="6374"/>
+	</soundAssets>
+	<sharedAssetsLibrary src="assets.swf"/>
+	<graphicAssets>
+		<graphicAsset id="imgAsset0" src="logo.swf" embedded="0"/>
+		<graphicAsset id="imgAsset1" src="thmb1.swf" embedded="0"/>
+		<graphicAsset id="imgAsset2" src="thmb2.swf" embedded="0"/>
+		<graphicAsset id="imgAsset3" src="thmb3.swf" embedded="0"/>
+		<graphicAsset id="imgAsset4" src="thmb4.swf" embedded="0"/>
+		<graphicAsset id="imgAsset5" src="thmb5.swf" embedded="0"/>
+		<graphicAsset id="imgAsset6" src="thmb6.swf" embedded="0"/>
+		<graphicAsset id="imgAsset7" src="thmb7.swf" embedded="0"/>
+		<graphicAsset id="imgAsset8" src="thmb8.swf" embedded="0"/>
+		<graphicAsset id="imgAsset9" src="thmb9.swf" embedded="0"/>
+		<graphicAsset id="imgAsset10" src="thmb10.swf" embedded="0"/>
+		<graphicAsset id="imgAsset11" src="thmb11.swf" embedded="0"/>
+		<graphicAsset id="imgAsset12" src="thmb12.swf" embedded="0"/>
+	</graphicAssets>
+	<playlists/>
+	<narration/>
+	<settings>
+		<navigation>
+			<keyboard enabled="0">
+				<actions>
+					<action name="playPause">
+						<shortcut code="32" control="0" shift="0"/>
+					</action>
+					<action name="nextSlide">
+						<shortcut code="39" control="0" shift="0"/>
+					</action>
+					<action name="previousSlide">
+						<shortcut code="37" control="0" shift="0"/>
+					</action>
+					<action name="nextStep">
+						<shortcut code="13" control="0" shift="0"/>
+					</action>
+					<action name="previousStep">
+						<shortcut code="13" control="0" shift="1"/>
+					</action>
+					<action name="firstSlide">
+						<shortcut code="36" control="1" shift="0"/>
+					</action>
+					<action name="lastSlide">
+						<shortcut code="35" control="1" shift="0"/>
+					</action>
+					<action name="lastViewedSlide">
+						<shortcut code="8" control="0" shift="0"/>
+					</action>
+					<action name="slideStart">
+						<shortcut code="36" control="0" shift="0"/>
+					</action>
+					<action name="slideEnd">
+						<shortcut code="35" control="0" shift="0"/>
+					</action>
+					<action name="volumeUp">
+						<shortcut code="38" control="0" shift="0"/>
+					</action>
+					<action name="volumeDown">
+						<shortcut code="40" control="0" shift="0"/>
+					</action>
+					<action name="toggleFullscreen">
+						<shortcut code="70" control="1" shift="0"/>
+					</action>
+				</actions>
+			</keyboard>
+			<mouse enabled="0" target="step"/>
+			<gesture zoom="0"/>
+		</navigation>
+		<skin>
+			<colorSettings>
+				<color id="button.content.normal">#FFFFFF</color>
+				<color id="button.content.over">#FFFFFF</color>
+				<color id="button.face.normal">#777777</color>
+				<color id="button.face.over">#575757</color>
+				<color id="companyLogo.background">#FFFFFF</color>
+				<color id="hyperlink">#097CE7</color>
+				<color id="listItem.face.over">#E8E8E8</color>
+				<color id="listItem.face.pressed">#6E6E6E</color>
+				<color id="listItem.label.over">#000000</color>
+				<color id="listItem.label.pressed">#FFFFFF</color>
+				<color id="listItem.label.visited">#A1A1A1</color>
+				<color id="page.background">#8A8A8A</color>
+				<color id="panel.background">#F7F7F7</color>
+				<color id="panel.text">#323232</color>
+				<color id="player.background">#D4D4D4</color>
+				<color id="popup.background">#FFFFFF</color>
+				<color id="progress.background">#6E6E6E</color>
+				<color id="progress.loading">#D0D0D0</color>
+				<color id="progress.playback">#A1A1A1</color>
+				<color id="text">#4D4D4D</color>
+			</colorSettings>
+			<controlPanelSettings>
+				<visible>true</visible>
+				<showOutline>false</showOutline>
+				<showPlayPause>true</showPlayPause>
+				<showRewind>true</showRewind>
+				<showVolumeControl>true</showVolumeControl>
+				<showCCButton>false</showCCButton>
+				<showPrevButton>true</showPrevButton>
+				<showNextButton>true</showNextButton>
+				<showSlideOnlyButton>true</showSlideOnlyButton>
+				<progressBar>
+					<visible>true</visible>
+					<enabled>false</enabled>
+					<showLabels>true</showLabels>
+					<mode>slideTimeline</mode>
+				</progressBar>
+				<navigationMode>bySlides</navigationMode>
+			</controlPanelSettings>
+			<titlePanelSettings>
+				<showLogo>true</showLogo>
+				<visible>true</visible>
+				<buttons>
+					<button type="attachments" visible="false"/>
+					<button type="presenterInfo" visible="false"/>
+					<button type="markerTools" visible="false"/>
+					<button type="notes" visible="false"/>
+					<button type="outline" visible="true"/>
+				</buttons>
+			</titlePanelSettings>
+			<outlinePanelSettings>
+				<numberEntries>true</numberEntries>
+				<highlightViewedEntries>true</highlightViewedEntries>
+				<thumbnails>true</thumbnails>
+				<search>true</search>
+				<multilevel>true</multilevel>
+			</outlinePanelSettings>
+			<sidePanelSettings>
+				<showAtLeft>true</showAtLeft>
+				<showLogo>false</showLogo>
+				<showPresenterInfo>false</showPresenterInfo>
+				<showPresenterVideo>false</showPresenterVideo>
+				<visible>false</visible>
+				<tabsPanel>
+					<showOutline>false</showOutline>
+					<showNotes>true</showNotes>
+				</tabsPanel>
+			</sidePanelSettings>
+		</skin>
+		<appearance fullScreen="1" showSlidePreloader="1"/>
+		<playback autoStart="1" syncWithVideoNarration="1" enableVideoControl="1" resumePresentationPlayback="prompt"/>
+	</settings>
+	<slides embedded="0">
+		<slide index="0" title="Instructions" titleNormalized="instructions" src="slide1.swf" size="66210" advanceOnTime="0" framesCount="1715" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset1">
+			<sounds>
+				<sound id="sound0" soundAssetId="sndAsset0" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+				<sound id="sound1" soundAssetId="sndAsset1" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+				<sound id="sound2" soundAssetId="sndAsset2" hasTriggerEffects="1" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound0" effect="0" startPos="0.0000000"/>
+				<playSound frameIndex="906" soundId="sound1" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="905" playTime="37.7083333" pauseTime="1.4856669"/>
+				<step start="906" end="1714" playTime="33.6666667" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>˂
+The following instructions must be followed to complete the course and get completion certificate.
+Each slide is time bound. 
+If a slide has the following icon, the learner must click on the same for further details. 
+The learner can’t move to the next slide till all activities in a particular slide are completed.
+Quizzes in the session are multiple choice questions. 
+
+About the Course
+This e-learning course is to be attempted by the learner in self-learning mode. The learner is expected to finish each section of this course. 
+Instructions
+Click here to change picture
+The Quiz assesses and facilitates the learning. A wrong answer guides one back to the relevant information while a right answer takes one to the next slide.
+The session has interactions and simulation role plays. Please follow instructions in the slide.
+
+˃
+Click on the icon to read additional information. Click on the icon again for the box to disappear.
+Please click on the play button at the bottom left to move to the next point.</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="1" title="Course Navigation" titleNormalized="course navigation" src="slide2.swf" size="26768" advanceOnTime="0" framesCount="725" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset2">
+			<sounds>
+				<sound id="sound3" soundAssetId="sndAsset3" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound3" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="724" playTime="30.1666667" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Course Navigation
+Please follow instructions
+Next Button
+Next Slide Button
+Screen Size
+Repeat Slide Button
+Top Menu Bar</text>
+		</slide>
+		<slide index="2" title="Risk associated with LC - Precautions" titleNormalized="risk associated with lc - precautions" src="slide3.swf" size="38135" advanceOnTime="0" framesCount="2568" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset3">
+			<sounds>
+				<sound id="sound4" soundAssetId="sndAsset4" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+				<sound id="sound5" soundAssetId="sndAsset5" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound4" effect="0" startPos="0.0000000"/>
+				<stopSound frameIndex="800" soundId="sound4"/>
+				<playSound frameIndex="800" soundId="sound5" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="799" playTime="33.2916667" pauseTime="0.0000000"/>
+				<step start="800" end="2567" playTime="73.6250000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes>LC deals with documents, not goods. However, the ultimate payment will take place after selling of goods. Besides, the intention of buyer and seller should be good i.e. buyer should be willing to make payment and his financial position should be good. Similarly, seller should also deliver goods as per specifications. 
+The maximum risk in issuing LC is towards issuing bank. Therefore the issuing bank must ensure that due diligence has been conducted at the time opening the LC. 
+Precaution exercised by LC Opening / Issuing Bank: 
+LC applicant’s financial position would determine the payment in due date . 
+If LC applicant and beneficiaries are dealing with for longer period , risk is lower . If it is a new relationship , issuing bank must ensure proper  risk mitigant like higher cash margin or higher security . 
+Nature of goods : In case the goods purchased under LC is of volatile nature the risk is high. It may happen that by the time documents under LC reach the buyer , the price of the goods has fallen and the buyer may not accept the documents . 
+Credit check of the beneficiary : If the LC amount is large enough , credit opinion about current financial position of the beneficiary has to be checked . In case seller’s financial positions are not good , the seller may submit proper documents but ship defective goods. 
+Operating cycle versus usance period : If operating cycle of the buyer is more than the usance period of LC , opening bank must ensure proper fund based working capital limit . 
+Foreign exchange risk under import LC : LC opening bank must ensure proper hedging is in place at the time of opening of LC. 
+ 
+
+
+</notes>
+			<notesNormalized>lc deals with documents, not goods. however, the ultimate payment will take place after selling of goods. besides, the intention of buyer and seller should be good i.e. buyer should be willing to make payment and his financial position should be good. similarly, seller should also deliver goods as per specifications. 
+the maximum risk in issuing lc is towards issuing bank. therefore the issuing bank must ensure that due diligence has been conducted at the time opening the lc. 
+precaution exercised by lc opening / issuing bank: 
+lc applicant’s financial position would determine the payment in due date . 
+if lc applicant and beneficiaries are dealing with for longer period , risk is lower . if it is a new relationship , issuing bank must ensure proper risk mitigant like higher cash margin or higher security . 
+nature of goods : in case the goods purchased under lc is of volatile nature the risk is high. it may happen that by the time documents under lc reach the buyer , the price of the goods has fallen and the buyer may not accept the documents . 
+credit check of the beneficiary : if the lc amount is large enough , credit opinion about current financial position of the beneficiary has to be checked . in case seller’s financial positions are not good , the seller may submit proper documents but ship defective goods. 
+operating cycle versus usance period : if operating cycle of the buyer is more than the usance period of lc , opening bank must ensure proper fund based working capital limit . 
+foreign exchange risk under import lc : lc opening bank must ensure proper hedging is in place at the time of opening of lc. 
+ 
+
+
+</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12" color="#000000"&gt;LC deals with documents, not goods. However, the ultimate payment will take place after selling of goods. Besides, the intention of buyer and seller should be good i.e. buyer should be willing to make payment and his financial position should be good. Similarly, seller should also deliver goods as per specifications. &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12" color="#000000"&gt;The maximum risk in issuing LC is towards issuing bank. Therefore the issuing bank must ensure that due diligence has been conducted at the time opening the LC. &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12" color="#ffffff"&gt;Precaution exercised by LC Opening / Issuing Bank: &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12" color="#ffffff"&gt;LC applicant’s financial position would determine the payment in due date . &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12" color="#ffffff"&gt;If LC applicant and beneficiaries are dealing with for longer period , risk is lower . If it is a new relationship , issuing bank must ensure proper  risk mitigant like higher cash margin or higher security . &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12" color="#ffffff"&gt;Nature of goods : In case the goods purchased under LC is of volatile nature the risk is high. It may happen that by the time documents under LC reach the buyer , the price of the goods has fallen and the buyer may not accept the documents . &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12" color="#ffffff"&gt;Credit check of the beneficiary : If the LC amount is large enough , credit opinion about current financial position of the beneficiary has to be checked . In case seller’s financial positions are not good , the seller may submit proper documents but ship defective goods. &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12" color="#ffffff"&gt;Operating cycle versus usance period : If operating cycle of the buyer is more than the usance period of LC , opening bank must ensure proper fund based working capital limit . &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12" color="#ffffff"&gt;Foreign exchange risk under import LC : LC opening bank must ensure proper hedging is in place at the time of opening of LC. &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12" color="#ffffff"&gt;&lt;b&gt; &lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</notesHtml>
+			<text>Risk associated with LC - Precautions
+LC deals with documents, not goods. However, the ultimate payment will take place after selling of goods. Besides, the intention of buyer and seller should be good i.e. buyer should be willing to make payment and his financial position should be good. Similarly, seller should also deliver goods as per specifications. 
+The maximum risk in issuing LC is towards issuing bank. Therefore the issuing bank must ensure that due diligence has been conducted at the time of opening the LC. 
+Precaution exercised by LC Opening / Issuing Bank 
+</text>
+		</slide>
+		<slide index="3" title="Money Laundering through LC" titleNormalized="money laundering through lc" src="slide4.swf" size="36926" advanceOnTime="0" framesCount="2274" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset4">
+			<sounds>
+				<sound id="sound6" soundAssetId="sndAsset6" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+				<sound id="sound7" soundAssetId="sndAsset7" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="FadeSmoothly" duration="0.7000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound6" effect="0" startPos="0.0000000"/>
+				<stopSound frameIndex="837" soundId="sound6"/>
+				<playSound frameIndex="837" soundId="sound7" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="836" playTime="34.8333333" pauseTime="0.0000000"/>
+				<step start="837" end="2273" playTime="59.8333333" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes>In the recent times , money laundering is emerging as one of the major menaces for the banking system. Among different forms of money laundering trade based money laundering is emerging as one of the most popular areas of money launderers. Since LC is used for import of goods , bankers should take adequate precaution for prevention of import based money laundering . In the case of import based money laundering , usually over invoicing is used as the primary mechanism: For import, the buyer or importer pays the amount through banking channel. 
+
+Some common methods for money laundering through import are :
+
+If the importer’s business model is that the importer will import goods but sells the same in cash, banks should verify the actual sales. In such case , the importer would pay less tax on sales side due to understatement of import . The difference amount would be transmitted through Hawala channel.
+The importer may also pay fund under advance remittances  without actual goods getting imported later. The banks or customers do not follow up the overseas exporter for delivery. Import based money laundering can also happen when actual import is not taking place but money has been paid. .
+If in a country,  outward  foreign currency movement restriction is on the higher side , then the chances of over invoicing is also on the higher side.
+The money is remitted outward without receipt of any material from the supplier. In case of service industry , it is very difficult to find out such over invoicing 
+
+
+ 
+
+
+</notes>
+			<notesNormalized>in the recent times , money laundering is emerging as one of the major menaces for the banking system. among different forms of money laundering trade based money laundering is emerging as one of the most popular areas of money launderers. since lc is used for import of goods , bankers should take adequate precaution for prevention of import based money laundering . in the case of import based money laundering , usually over invoicing is used as the primary mechanism: for import, the buyer or importer pays the amount through banking channel. 
+
+some common methods for money laundering through import are :
+
+if the importer’s business model is that the importer will import goods but sells the same in cash, banks should verify the actual sales. in such case , the importer would pay less tax on sales side due to understatement of import . the difference amount would be transmitted through hawala channel.
+the importer may also pay fund under advance remittances without actual goods getting imported later. the banks or customers do not follow up the overseas exporter for delivery. import based money laundering can also happen when actual import is not taking place but money has been paid. .
+if in a country, outward foreign currency movement restriction is on the higher side , then the chances of over invoicing is also on the higher side.
+the money is remitted outward without receipt of any material from the supplier. in case of service industry , it is very difficult to find out such over invoicing 
+
+
+ 
+
+
+</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12" color="#000000"&gt;In the recent times , money laundering is emerging as one of the major menaces for the banking system. Among different forms of money laundering trade based money laundering is emerging as one of the most popular areas of money launderers. Since LC is used for import of goods , bankers should take adequate precaution for prevention of import based money laundering . &lt;/font&gt;&lt;font size="10" color="#ffffff"&gt;In the case of import based money laundering , usually over invoicing is used as the primary mechanism: For import, the buyer or importer pays the amount through banking channel. &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10" color="#ffffff"&gt;Some common methods for money laundering through import are :&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="8" color="#6e6e6e"&gt;If the importer’s business model is that the importer will import goods but sells the same in cash, banks should verify the actual sales.&lt;/font&gt;&lt;font size="10" color="#6e6e6e"&gt; In such case , the importer would pay less tax on sales side due to understatement of import . The difference amount would be transmitted through Hawala channel.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="8" color="#6e6e6e"&gt;The importer may also pay fund under advance remittances  without actual goods getting imported later. The banks or customers do not follow up the overseas exporter for delivery. Import based money laundering can also happen when actual import is not taking place but money has been paid. .&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="8" color="#6e6e6e"&gt;If in a country,  outward  foreign currency movement restriction is on the higher side , then the chances of over invoicing is also on the higher side.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="8" color="#6e6e6e"&gt;The money is remitted outward without receipt of any material from the supplier. In &lt;/font&gt;&lt;font size="8" color="#000000"&gt;case of service industry , it is very difficult to find out such over invoicing &lt;/font&gt;&lt;font size="8" color="#6e6e6e"&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="8" color="#6e6e6e"&gt; &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</notesHtml>
+			<text>4
+Money laundering through LC: Import based Money Laundering
+Through LC, import takes place. Money laundering can happen though import. In the case of import based money laundering, usually over invoicing is used as the primary mechanism: For import 
+
+The buyer or importer pays the amount through banking channel. 
+
+Note the following for understanding Money laundering using import mechanism.
+
+If the importer’s business model is that the importer will import goods but sells the same in cash, banks should verify the actual sales. 
+The importer may also pay fund under advance remittances without actual goods getting imported later. The banks or customers do not follow up the overseas exporter for delivery.
+The money is remitted outward without receipt of any material from the supplier.
+If in a country, outward foreign currency movement restriction is on the higher side, then the chances of over invoicing is also on the higher side.
+
+In such case, the importer would pay less tax on sales side due to understatement of import. The difference amount would be transmitted through Hawala channel.
+Note
+Import based money laundering can also happen when actual import is not taking place but money has been paid. . 
+Note
+Note
+In case of service industry, it is very difficult to find out such over invoicing.</text>
+		</slide>
+		<slide index="4" title="Import based Money Laundering" titleNormalized="import based money laundering" src="slide5.swf" size="18597" advanceOnTime="0" framesCount="1699" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset5">
+			<sounds>
+				<sound id="sound8" soundAssetId="sndAsset8" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+				<sound id="sound9" soundAssetId="sndAsset9" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="FadeSmoothly" duration="0.7000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound8" effect="0" startPos="0.0000000"/>
+				<stopSound frameIndex="684" soundId="sound8"/>
+				<playSound frameIndex="684" soundId="sound9" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="683" playTime="28.4583333" pauseTime="0.0000000"/>
+				<step start="684" end="1698" playTime="42.2500000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes>Under invoicing of Imports is an example of money laundering . In the case of import based money laundering , under invoicing also happens. This is specially true in the case of country where import duty is very high. Under invoicing of import would involve that the importer  pays less amount of import duty and this lead to loss of exchequer . 
+Benchmarking of cost can help banks to find out the importers who are doing these activities 
+
+Banks can take following measures for prevention of money laundering : :
+Banks must take precautionary steps to prevent the money laundering activities using import mechanism,by Benchmarking of value of import  by using regulatory data for import of goods  and also Special precaution to be taken for container used for imports of goods. 
+
+The bank must ensure that adequate information is collected and a reporting mechanism is followed: 
+		•	Detailed information about overseas exporter and place of export  . 
+		•	Filing of Suspicious Transaction Report ( STR) in case there is any doubt
+
+
+
+
+
+
+
+</notes>
+			<notesNormalized>under invoicing of imports is an example of money laundering . in the case of import based money laundering , under invoicing also happens. this is specially true in the case of country where import duty is very high. under invoicing of import would involve that the importer pays less amount of import duty and this lead to loss of exchequer . 
+benchmarking of cost can help banks to find out the importers who are doing these activities 
+
+banks can take following measures for prevention of money laundering : :
+banks must take precautionary steps to prevent the money laundering activities using import mechanism,by benchmarking of value of import by using regulatory data for import of goods and also special precaution to be taken for container used for imports of goods. 
+
+the bank must ensure that adequate information is collected and a reporting mechanism is followed: 
+		•	detailed information about overseas exporter and place of export . 
+		•	filing of suspicious transaction report ( str) in case there is any doubt
+
+
+
+
+
+
+
+</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12" color="#ffffff"&gt;Under invoicing of Imports is an example of money laundering . In the case of import based money laundering , under invoicing also happens. This is specially true in the case of country where import duty is very high. Under invoicing of import would involve that the importer  pays less amount of import duty and this lead to loss of exchequer . &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12" color="#ffffff"&gt;Benchmarking of cost can help banks to find out the importers who are doing these activities &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12" color="#ffffff"&gt;Banks can take following measures for prevention of money laundering : :&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="7" color="#6e6e6e"&gt;Banks must take precautionary steps to prevent the money laundering activities using import mechanism,by Benchmarking of value of import  by using regulatory data for import of goods  and also Special precaution to be taken for container used for imports of goods. &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="7" color="#6e6e6e"&gt;The bank must ensure that adequate information is collected and a reporting mechanism is followed: &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="7" color="#6e6e6e"&gt;		•	Detailed information about overseas exporter and place of export  . &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="7" color="#6e6e6e"&gt;		•	Filing of Suspicious Transaction Report ( STR) in case there is any doubt&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</notesHtml>
+			<text>5
+Import based Money Laundering: Contd.
+Prevention of Import based Money Laundering
+Banks must take precautionary steps to prevent the money laundering activities using import mechanism:
+Benchmarking of value of import by using regulatory data for import of goods. 
+Special precaution to be taken for container used for imports of goods.
+Prevention of Money Laundering, contd. 
+The bank must ensure that adequate information is collected and a reporting mechanism is followed:
+
+Detailed information about overseas exporter and place of export.
+Filing of Suspicious Transaction Report (STR) in case there is any doubt.
+Under invoicing of Imports
+In the case of import based money laundering, under invoicing also happens. This is specially true in the case of country where import duty is very high.
+The importer pays less amount of import duty and this lead to loss of exchequer. 
+Benchmarking of cost can help banks to find out the importers who are doing these activities. 
+</text>
+		</slide>
+		<slide index="5" title="Money Laundering: Prevention Strategy" titleNormalized="money laundering: prevention strategy" src="slide6.swf" size="77641" advanceOnTime="0" framesCount="1554" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset6">
+			<sounds>
+				<sound id="sound10" soundAssetId="sndAsset10" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="FadeSmoothly" duration="0.7000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound10" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="1553" playTime="64.7083333" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes>Money Laundering: Prevention strategies
+Seek Overseas Data : Mandatory credit opinion about overseas parties above a particular amount.
+Verify Price : Price of goods exported and /or imported vis-a- vis bench mark price 
+Enhanced Due Diligence : Anticipating dubious activities in advance shall help banks to detect such types of transaction early and take preventive actions.
+Evaluation process : Development of proper evaluation process and fine tuning the process based on customers expectation
+Use technology : To detect the events through machine learning based software and then reporting the same to FIU through STR submission process.</notes>
+			<notesNormalized>money laundering: prevention strategies
+seek overseas data : mandatory credit opinion about overseas parties above a particular amount.
+verify price : price of goods exported and /or imported vis-a- vis bench mark price 
+enhanced due diligence : anticipating dubious activities in advance shall help banks to detect such types of transaction early and take preventive actions.
+evaluation process : development of proper evaluation process and fine tuning the process based on customers expectation
+use technology : to detect the events through machine learning based software and then reporting the same to fiu through str submission process.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;Money Laundering: Prevention strategies&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12"&gt;Seek Overseas Data : Mandatory credit opinion about overseas parties above a particular amount.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12"&gt;Verify Price : Price of goods exported and /or imported vis-a- vis bench mark price &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12"&gt;Enhanced Due Diligence : Anticipating dubious activities in advance shall help banks to detect such types of transaction early and take preventive actions.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12"&gt;Evaluation process : Development of proper evaluation process and fine tuning the process based on customers expectation&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="12"&gt;Use technology : To detect the events through machine learning based software and then reporting the same to FIU through STR submission process.&lt;/font&gt;&lt;/p&gt;</notesHtml>
+			<text>01
+6
+Money Laundering: Prevention strategies
+02
+03
+04
+05
+Seek Overseas Data
+Mandatory credit opinion about overseas parties above a particular amount.
+Verify Price
+Price of goods exported and /or imported vis-a- vis bench mark price. 
+.
+Enhanced Due Diligence
+Anticipating dubious activities in advance shall help banks to detect such types of transaction early and take preventive actions.
+Evaluation process
+Development of proper evaluation process and fine tuning the process based on customers expectation.
+Use technology
+To detect the events through machine learning based software and then reporting the same to FIU through STR submission process.</text>
+		</slide>
+		<slide index="6" title="Question 1" titleNormalized="question 1" src="slide7.swf" size="10401" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset7">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes>Correct answer is 4; if wrong please go to slide no 5</notes>
+			<notesNormalized>correct answer is 4; if wrong please go to slide no 5</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;Correct answer is 4; if wrong please go to slide no 5&lt;/font&gt;&lt;/p&gt;</notesHtml>
+			<text>Question 1
+In a LC transaction, credit check of beneficiary is required to establish 
+
+Financial position of beneficiary 
+
+ 
+Quality of goods to be shipped by the beneficiary 
+
+
+Repayment capability of applicant 
+
+
+Both 1 and 2 
+</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+			<navigation locked="1"/>
+		</slide>
+		<slide index="7" title="Question 2" titleNormalized="question 2" src="slide8.swf" size="10362" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset8">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes>Correct answer is 4; if wrong please go to slide no 6,7</notes>
+			<notesNormalized>correct answer is 4; if wrong please go to slide no 6,7</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;Correct answer is 4; if wrong please go to slide no 6,7&lt;/font&gt;&lt;/p&gt;</notesHtml>
+			<text>Question 2
+In the case of LC transaction the money laundering can happen due to 
+
+Over invoicing of import 
+
+ 
+Under invoicing of import 
+
+
+Repayment capability of importer 
+
+
+Both 1 and 2 
+</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+			<navigation locked="1"/>
+		</slide>
+		<slide index="8" title="Question 3" titleNormalized="question 3" src="slide9.swf" size="10451" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset9">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes>Correct answer is 2; if wrong please go to slide no 7</notes>
+			<notesNormalized>correct answer is 2; if wrong please go to slide no 7</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;Correct answer is 2; if wrong please go to slide no 7&lt;/font&gt;&lt;/p&gt;</notesHtml>
+			<text>Question 3
+To prevent the money laundering risk associated with LC , the following should be carried out by the issuing bank: 
+
+Checking of overseas seller 
+
+ 
+Checking of Price of goods to be imported 
+
+
+Enhanced due diligence for high risk customer 
+
+
+All the above 
+</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+			<navigation locked="1"/>
+		</slide>
+		<slide index="9" title="RECAP SIM" titleNormalized="recap sim" src="slide10.swf" size="10335" advanceOnTime="0" framesCount="275" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset10">
+			<sounds>
+				<sound id="sound11" soundAssetId="sndAsset11" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound11" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="274" playTime="5.0000000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>That’s not correct!!! Let’s revisit the concept and try again.
+Wrong Answer Prompt Quiz</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="10" title="RECAP SIM" titleNormalized="recap sim" src="slide11.swf" size="9555" advanceOnTime="0" framesCount="158" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset11">
+			<sounds>
+				<sound id="sound12" soundAssetId="sndAsset12" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound12" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="157" playTime="5.0000000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>That’s correct!!! Let’s move on.
+Correct Answer Prompt Quiz</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="11" title="RECAP SIM" titleNormalized="recap sim" src="slide12.swf" size="10717" advanceOnTime="0" framesCount="153" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset12">
+			<sounds>
+				<sound id="sound13" soundAssetId="sndAsset13" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound13" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="152" playTime="6.3333333" pauseTime="23.6666667"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Great! 
+You have completed this session successfully.
+Correct Answer Prompt Quiz</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+	</slides>
+	<slideShows>
+		<slideShow name="Q1 R" slides="10,7"/>
+		<slideShow name="Q1 W" slides="9,3,6"/>
+		<slideShow name="Q2 R" slides="10,8"/>
+		<slideShow name="Q2 W" slides="9,4,5,7"/>
+		<slideShow name="Q3 R" slides="10,11"/>
+		<slideShow name="Q3 W" slides="9,5,8"/>
+	</slideShows>
+</presentation>

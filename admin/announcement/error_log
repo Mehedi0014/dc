@@ -1,0 +1,45 @@
+[11-Jan-2019 17:20:41 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/announcement/list_announcement.php on line 7
+[11-Jan-2019 17:20:41 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[11-Jan-2019 17:20:41 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[11-Jan-2019 17:23:28 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/announcement/list_announcement.php on line 7
+[11-Jan-2019 17:23:28 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[11-Jan-2019 17:23:28 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jan-2019 17:12:39 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/announcement/list_announcement.php on line 7
+[12-Jan-2019 17:12:39 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 17:12:39 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[15-Jan-2019 14:14:51 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/announcement/list_announcement.php on line 7
+[15-Jan-2019 14:14:51 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 14:14:51 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[15-Jan-2019 14:14:54 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 14:14:54 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jun-2019 16:04:08 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/announcement/list_announcement.php on line 7
+[12-Jun-2019 16:04:08 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jun-2019 16:04:08 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[14-Jun-2019 16:23:06 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/announcement/list_announcement.php on line 7
+[14-Jun-2019 16:23:06 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[14-Jun-2019 16:23:06 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 14:54:12 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/announcement/list_announcement.php on line 7
+[13-Nov-2019 14:54:12 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 14:54:12 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 14:54:23 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 14:54:23 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 14:59:09 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/announcement/list_announcement.php on line 7
+[13-Nov-2019 14:59:09 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 14:59:09 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 14:59:12 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 14:59:12 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 15:00:23 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/announcement/list_announcement.php on line 7
+[13-Nov-2019 15:00:23 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 15:00:23 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 15:40:41 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/announcement/list_announcement.php on line 7
+[13-Nov-2019 15:40:41 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 15:40:41 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 16:01:26 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/announcement/list_announcement.php on line 7
+[13-Nov-2019 16:01:26 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 16:01:26 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 16:01:30 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/announcement/list_announcement.php on line 7
+[13-Nov-2019 16:01:30 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 16:01:30 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[18-Nov-2019 12:15:34 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/announcement/list_announcement.php on line 7
+[18-Nov-2019 12:15:34 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[18-Nov-2019 12:15:34 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14

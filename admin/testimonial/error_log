@@ -1,0 +1,21 @@
+[18-Sep-2018 16:50:01 Asia/Kolkata] PHP Notice:  Undefined index: publish in /home/feelperf/public_html/new/admin/testimonial/db_add_testimonial.php on line 15
+[18-Sep-2018 16:50:04 Asia/Kolkata] PHP Warning:  unlink(/home/feelperf/public_html/new/upload/testimonial/): Is a directory in /home/feelperf/public_html/new/admin/testimonial/delete_testimonial.php on line 21
+[20-Sep-2018 15:55:02 Asia/Kolkata] PHP Warning:  unlink(/home/feelperf/public_html/upload/testimonial/): Is a directory in /home/feelperf/public_html/admin/testimonial/delete_testimonial.php on line 21
+[15-Jan-2019 14:15:23 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 14:15:23 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[15-Jan-2019 14:15:25 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 14:15:25 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jun-2019 15:11:22 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jun-2019 15:11:22 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[14-Jun-2019 16:19:55 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[14-Jun-2019 16:19:55 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[14-Jun-2019 16:22:57 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[14-Jun-2019 16:22:57 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 13:06:43 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 13:06:43 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 15:06:33 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 15:06:33 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[22-Nov-2019 16:18:33 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[22-Nov-2019 16:18:33 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[22-Nov-2019 16:19:30 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[22-Nov-2019 16:19:30 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14

@@ -1,0 +1,126 @@
+[14-Jul-2018 11:07:22 Asia/Kolkata] PHP Notice:  Undefined variable: document_path_slidera in /home/keyline1/public_html/dev/cabcon2018/admin/slider/delete_slider.php on line 21
+[14-Jul-2018 11:07:22 Asia/Kolkata] PHP Warning:  unlink(/home/keyline1/public_html/dev/cabcon20181): No such file or directory in /home/keyline1/public_html/dev/cabcon2018/admin/slider/delete_slider.php on line 24
+[14-Jul-2018 11:07:23 Asia/Kolkata] PHP Notice:  Undefined variable: document_path_slidera in /home/keyline1/public_html/dev/cabcon2018/admin/slider/delete_slider.php on line 21
+[14-Jul-2018 11:07:23 Asia/Kolkata] PHP Warning:  unlink(/home/keyline1/public_html/dev/cabcon20182): No such file or directory in /home/keyline1/public_html/dev/cabcon2018/admin/slider/delete_slider.php on line 24
+[16-Jul-2018 16:50:14 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/keyline1/public_html/dev/cabcon2018/admin/slider/slider.php on line 65
+[16-Jul-2018 16:50:27 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/keyline1/public_html/dev/cabcon2018/admin/slider/slider.php on line 65
+[17-Jul-2018 18:51:51 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/keyline1/public_html/dev/cabcon2018/admin/slider/slider.php on line 65
+[17-Jul-2018 18:52:20 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/keyline1/public_html/dev/cabcon2018/admin/slider/slider.php on line 65
+[05-Sep-2018 16:40:15 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/cabconin/public_html/admin/slider/slider.php on line 65
+[05-Sep-2018 16:40:36 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/cabconin/public_html/admin/slider/slider.php on line 65
+[05-Nov-2018 17:24:35 Asia/Kolkata] PHP Notice:  Undefined variable: document_path_slidera in /home/dissemin/public_html/newsite/admin/slider/delete_slider.php on line 21
+[05-Nov-2018 17:24:35 Asia/Kolkata] PHP Warning:  unlink(/home/dissemin/public_html/newsite3): No such file or directory in /home/dissemin/public_html/newsite/admin/slider/delete_slider.php on line 24
+[05-Nov-2018 17:24:39 Asia/Kolkata] PHP Notice:  Undefined variable: document_path_slidera in /home/dissemin/public_html/newsite/admin/slider/delete_slider.php on line 21
+[05-Nov-2018 17:24:39 Asia/Kolkata] PHP Warning:  unlink(/home/dissemin/public_html/newsite2): No such file or directory in /home/dissemin/public_html/newsite/admin/slider/delete_slider.php on line 24
+[05-Nov-2018 17:24:45 Asia/Kolkata] PHP Notice:  Undefined variable: document_path_slidera in /home/dissemin/public_html/newsite/admin/slider/delete_slider.php on line 21
+[05-Nov-2018 17:24:45 Asia/Kolkata] PHP Warning:  unlink(/home/dissemin/public_html/newsite4): No such file or directory in /home/dissemin/public_html/newsite/admin/slider/delete_slider.php on line 24
+[05-Nov-2018 17:24:49 Asia/Kolkata] PHP Notice:  Undefined variable: document_path_slidera in /home/dissemin/public_html/newsite/admin/slider/delete_slider.php on line 21
+[05-Nov-2018 17:24:49 Asia/Kolkata] PHP Warning:  unlink(/home/dissemin/public_html/newsite1): No such file or directory in /home/dissemin/public_html/newsite/admin/slider/delete_slider.php on line 24
+[26-Nov-2018 17:58:47 Asia/Kolkata] PHP Notice:  Undefined variable: document_path_slidera in /home/dissemin/public_html/newsite/admin/slider/delete_slider.php on line 21
+[26-Nov-2018 17:58:47 Asia/Kolkata] PHP Warning:  unlink(/home/dissemin/public_html/newsite3): No such file or directory in /home/dissemin/public_html/newsite/admin/slider/delete_slider.php on line 24
+[26-Dec-2018 13:52:14 Asia/Kolkata] PHP Notice:  Undefined variable: document_path_slidera in /home/dissemin/public_html/newsite/admin/slider/delete_slider.php on line 21
+[26-Dec-2018 13:52:14 Asia/Kolkata] PHP Warning:  unlink(/home/dissemin/public_html/newsiteIIBF-banner): No such file or directory in /home/dissemin/public_html/newsite/admin/slider/delete_slider.php on line 24
+[11-Jan-2019 17:22:33 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[11-Jan-2019 17:22:33 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[11-Jan-2019 17:22:33 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[12-Jan-2019 15:55:53 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 15:55:53 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jan-2019 15:55:53 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[12-Jan-2019 16:11:30 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 16:11:30 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jan-2019 16:11:30 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[12-Jan-2019 16:27:43 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 16:27:43 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jan-2019 16:27:43 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[15-Jan-2019 12:54:24 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 12:54:24 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[15-Jan-2019 12:54:24 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[15-Jan-2019 12:54:47 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 12:54:47 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[15-Jan-2019 12:55:18 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 12:55:18 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[15-Jan-2019 12:55:18 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[15-Jan-2019 12:55:25 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 12:55:25 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[15-Jan-2019 12:55:49 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 12:55:49 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[15-Jan-2019 12:55:49 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[15-Jan-2019 12:55:53 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 12:55:53 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[15-Jan-2019 12:56:00 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 12:56:00 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[15-Jan-2019 12:56:00 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[15-Jan-2019 13:02:38 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 13:02:38 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[15-Jan-2019 13:02:47 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 13:02:47 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[15-Jan-2019 13:02:47 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[19-Jan-2019 17:40:01 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[19-Jan-2019 17:40:01 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[19-Jan-2019 17:40:01 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[08-Feb-2019 13:28:10 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[08-Feb-2019 13:28:10 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[08-Feb-2019 13:28:10 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[01-May-2019 12:47:06 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[01-May-2019 12:47:06 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[01-May-2019 12:47:06 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[01-May-2019 12:58:44 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[01-May-2019 12:58:44 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[01-May-2019 12:58:44 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[12-Jun-2019 11:35:37 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jun-2019 11:35:37 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jun-2019 11:35:37 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[12-Jun-2019 11:35:41 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jun-2019 11:35:41 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jun-2019 11:36:12 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jun-2019 11:36:12 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jun-2019 11:36:12 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[12-Jun-2019 14:50:37 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jun-2019 14:50:37 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jun-2019 14:50:37 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[12-Jun-2019 15:09:55 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jun-2019 15:09:55 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jun-2019 15:09:55 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[12-Jun-2019 15:57:15 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jun-2019 15:57:15 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jun-2019 15:57:15 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[14-Jun-2019 16:27:33 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[14-Jun-2019 16:27:33 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[14-Jun-2019 16:27:33 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[14-Jun-2019 16:27:39 Asia/Kolkata] PHP Notice:  Undefined variable: document_path_slidera in /home/dissemin/public_html/admin/slider/delete_slider.php on line 21
+[14-Jun-2019 16:27:39 Asia/Kolkata] PHP Warning:  unlink(/home/dissemin/public_htmlCareer): No such file or directory in /home/dissemin/public_html/admin/slider/delete_slider.php on line 24
+[14-Jun-2019 16:27:39 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[14-Jun-2019 16:27:39 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[14-Jun-2019 16:27:39 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[17-Jun-2019 15:54:54 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[17-Jun-2019 15:54:54 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[17-Jun-2019 15:54:54 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[17-Jun-2019 15:55:00 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[17-Jun-2019 15:55:00 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 13:06:14 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 13:06:14 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 13:06:14 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[13-Nov-2019 13:07:35 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 13:07:35 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 13:07:35 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[13-Nov-2019 14:18:17 Asia/Kolkata] PHP Notice:  Undefined index: user_role in /home/dissemin/public_html/admin/slider/slider.php on line 4
+[13-Nov-2019 14:18:26 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 14:18:26 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 14:18:26 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[14-Nov-2019 18:01:45 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[14-Nov-2019 18:01:45 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[14-Nov-2019 18:01:45 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[22-Nov-2019 16:17:08 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[22-Nov-2019 16:17:08 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[22-Nov-2019 16:17:08 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[22-Nov-2019 16:17:14 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[22-Nov-2019 16:17:14 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[22-Nov-2019 16:17:14 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[22-Nov-2019 16:17:45 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[22-Nov-2019 16:17:45 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[22-Nov-2019 16:17:45 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[30-Mar-2020 21:16:38 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[30-Mar-2020 21:16:38 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[30-Mar-2020 21:16:38 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/slider/slider.php on line 67
+[30-Mar-2020 21:16:43 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[30-Mar-2020 21:16:43 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14

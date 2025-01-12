@@ -1,0 +1,32 @@
+[26-Oct-2018 11:11:57 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/dissemin/public_html/newsite/admin/blog/db_edit_blog.php on line 93
+[26-Oct-2018 11:11:57 Asia/Kolkata] PHP Fatal error:  Query Failed! SQL:  - Error:  in /home/dissemin/public_html/newsite/admin/blog/db_edit_blog.php on line 93
+[26-Oct-2018 11:18:03 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/dissemin/public_html/newsite/admin/blog/db_edit_blog.php on line 99
+[26-Oct-2018 11:18:03 Asia/Kolkata] PHP Fatal error:  Query Failed! SQL:  - Error:  in /home/dissemin/public_html/newsite/admin/blog/db_edit_blog.php on line 99
+[26-Oct-2018 11:18:15 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/dissemin/public_html/newsite/admin/blog/db_edit_blog.php on line 99
+[26-Oct-2018 11:18:15 Asia/Kolkata] PHP Fatal error:  Query Failed! SQL:  - Error:  in /home/dissemin/public_html/newsite/admin/blog/db_edit_blog.php on line 99
+[26-Oct-2018 11:18:25 Asia/Kolkata] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/dissemin/public_html/newsite/admin/blog/db_edit_blog.php on line 99
+[26-Oct-2018 11:18:25 Asia/Kolkata] PHP Fatal error:  Query Failed! SQL:  - Error:  in /home/dissemin/public_html/newsite/admin/blog/db_edit_blog.php on line 99
+[15-Jan-2019 14:15:05 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/blog/list_blog.php on line 7
+[15-Jan-2019 14:15:05 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 14:15:05 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[15-Jan-2019 14:15:05 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/blog/list_blog.php on line 116
+[15-Jan-2019 14:15:08 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 14:15:08 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[15-Jan-2019 14:15:18 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 14:15:18 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[11-Feb-2019 11:49:05 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/blog/list_blog.php on line 7
+[11-Feb-2019 11:49:05 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[11-Feb-2019 11:49:05 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[11-Feb-2019 11:49:05 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/blog/list_blog.php on line 116
+[12-Jun-2019 16:05:09 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/blog/list_blog.php on line 7
+[12-Jun-2019 16:05:09 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jun-2019 16:05:09 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jun-2019 16:05:09 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/blog/list_blog.php on line 116
+[13-Nov-2019 15:04:46 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/blog/list_blog.php on line 7
+[13-Nov-2019 15:04:46 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 15:04:46 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 15:04:46 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/blog/list_blog.php on line 116
+[22-Nov-2019 16:18:28 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/dissemin/public_html/admin/blog/list_blog.php on line 7
+[22-Nov-2019 16:18:28 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[22-Nov-2019 16:18:28 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[22-Nov-2019 16:18:28 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/blog/list_blog.php on line 116

@@ -1,0 +1,69 @@
+[22-Dec-2017 06:06:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/genohrco/public_html/newsite/admin/includes/header.php:5) in /home/genohrco/public_html/newsite/admin/includes/header.php on line 7
+[17-Jul-2018 10:47:51 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/keyline1/public_html/dev/cabcon2018/admin/media/media.php on line 48
+[12-Jan-2019 17:10:13 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 17:10:13 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jan-2019 17:10:13 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[12-Jan-2019 17:10:19 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 17:10:19 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jan-2019 17:10:19 Asia/Kolkata] PHP Notice:  Undefined index: uploaded_by in /home/dissemin/public_html/admin/media/edit_media.php on line 45
+[12-Jan-2019 17:10:23 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 17:10:23 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jan-2019 17:10:23 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[12-Jan-2019 17:12:56 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 17:12:56 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jan-2019 17:12:56 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[12-Jan-2019 17:13:14 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 17:13:14 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jan-2019 17:13:14 Asia/Kolkata] PHP Notice:  Undefined index: uploaded_by in /home/dissemin/public_html/admin/media/edit_media.php on line 45
+[12-Jan-2019 17:13:18 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 17:13:18 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jan-2019 17:13:18 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[12-Jan-2019 17:18:32 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 17:18:32 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jan-2019 17:18:32 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[12-Jan-2019 17:18:59 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 17:18:59 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jan-2019 17:18:59 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[19-Jan-2019 17:19:04 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[19-Jan-2019 17:19:04 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[19-Jan-2019 17:19:04 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[19-Jan-2019 17:38:06 Asia/Kolkata] PHP Notice:  Undefined index: user_role in /home/dissemin/public_html/admin/media/media.php on line 4
+[19-Jan-2019 17:38:21 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[19-Jan-2019 17:38:21 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[19-Jan-2019 17:38:21 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[19-Jan-2019 17:39:27 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[19-Jan-2019 17:39:27 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[19-Jan-2019 17:39:27 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[19-Jan-2019 17:40:18 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[19-Jan-2019 17:40:18 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[19-Jan-2019 17:40:18 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[01-May-2019 12:47:17 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[01-May-2019 12:47:17 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[01-May-2019 12:47:17 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[13-Nov-2019 13:06:54 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 13:06:54 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 13:06:54 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[13-Nov-2019 15:08:17 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 15:08:17 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 15:08:18 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[13-Nov-2019 15:08:22 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 15:08:22 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 15:08:22 Asia/Kolkata] PHP Notice:  Undefined index: uploaded_by in /home/dissemin/public_html/admin/media/edit_media.php on line 45
+[13-Nov-2019 15:08:29 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 15:08:29 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 15:08:29 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[13-Nov-2019 16:00:06 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 16:00:06 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 16:00:06 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[13-Nov-2019 16:01:42 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 16:01:42 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 16:01:42 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[13-Nov-2019 16:01:45 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 16:01:45 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 16:01:45 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[13-Nov-2019 16:04:48 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 16:04:48 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 16:04:48 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/media/media.php on line 50
+[13-Nov-2019 16:05:17 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[13-Nov-2019 16:05:17 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[13-Nov-2019 16:05:17 Asia/Kolkata] PHP Notice:  Undefined index: uploaded_by in /home/dissemin/public_html/admin/media/edit_media.php on line 45

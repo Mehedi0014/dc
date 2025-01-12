@@ -1,0 +1,43 @@
+[22-Dec-2018 09:14:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dissemin/public_html/newsite/admin/career/edit_job.php on line 14
+[22-Dec-2018 09:14:03 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/dissemin/public_html/newsite/admin/career/edit_job.php on line 14
+[22-Dec-2018 09:14:03 UTC] PHP Fatal error:  Query Failed! SQL: SELECT * FROM `job` WHERE `id`= '1' - Error:  in /home/dissemin/public_html/newsite/admin/career/edit_job.php on line 14
+[22-Dec-2018 09:14:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dissemin/public_html/newsite/admin/career/edit_job.php on line 14
+[22-Dec-2018 09:14:24 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/dissemin/public_html/newsite/admin/career/edit_job.php on line 14
+[22-Dec-2018 09:14:24 UTC] PHP Fatal error:  Query Failed! SQL: SELECT * FROM `job` WHERE `id`= '1' - Error:  in /home/dissemin/public_html/newsite/admin/career/edit_job.php on line 14
+[22-Dec-2018 09:14:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dissemin/public_html/newsite/admin/career/edit_job.php on line 14
+[22-Dec-2018 09:14:37 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/dissemin/public_html/newsite/admin/career/edit_job.php on line 14
+[22-Dec-2018 09:14:37 UTC] PHP Fatal error:  Query Failed! SQL: SELECT * FROM `job` WHERE `id`= '1' - Error:  in /home/dissemin/public_html/newsite/admin/career/edit_job.php on line 14
+[22-Dec-2018 09:14:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dissemin/public_html/newsite/admin/career/edit_job.php on line 14
+[22-Dec-2018 09:14:57 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/dissemin/public_html/newsite/admin/career/edit_job.php on line 14
+[22-Dec-2018 09:14:57 UTC] PHP Fatal error:  Query Failed! SQL: SELECT * FROM `job` WHERE `id`= '1' - Error:  in /home/dissemin/public_html/newsite/admin/career/edit_job.php on line 14
+[11-Jan-2019 17:21:52 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[11-Jan-2019 17:21:52 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[11-Jan-2019 17:21:52 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/career/job_list.php on line 61
+[12-Jan-2019 17:11:48 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 17:11:48 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jan-2019 17:11:48 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/career/job_list.php on line 61
+[12-Jan-2019 17:12:07 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 17:12:07 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jan-2019 18:37:24 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 18:37:24 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jan-2019 18:41:38 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 18:41:38 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[12-Jan-2019 18:41:38 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/career/job_list.php on line 61
+[12-Jan-2019 18:41:43 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[12-Jan-2019 18:41:43 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[15-Jan-2019 14:15:32 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 14:15:32 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[15-Jan-2019 14:15:32 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/career/job_list.php on line 61
+[15-Jan-2019 14:15:36 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[15-Jan-2019 14:15:36 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[25-Jan-2019 17:44:43 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[25-Jan-2019 17:44:43 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[25-Jan-2019 17:44:43 Asia/Kolkata] PHP Notice:  Undefined variable: id in /home/dissemin/public_html/admin/career/job_list.php on line 61
+[25-Jan-2019 17:44:52 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[25-Jan-2019 17:44:52 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[25-Jan-2019 17:45:05 Asia/Kolkata] PHP Notice:  Undefined variable: document_path_cv in /home/dissemin/public_html/admin/career/delete_application.php on line 21
+[25-Jan-2019 17:45:05 Asia/Kolkata] PHP Warning:  unlink(/home/dissemin/public_htmlcv_25-01-19_1548418396.docx): No such file or directory in /home/dissemin/public_html/admin/career/delete_application.php on line 24
+[25-Jan-2019 17:45:05 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[25-Jan-2019 17:45:05 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14
+[25-Jan-2019 17:59:31 Asia/Kolkata] PHP Notice:  A session had already been started - ignoring session_start() in /home/dissemin/public_html/admin/includes/header.php on line 1
+[25-Jan-2019 17:59:31 Asia/Kolkata] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/dissemin/public_html/admin/includes/header.php on line 14

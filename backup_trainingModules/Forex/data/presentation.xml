@@ -1,0 +1,702 @@
+<?xml version="1.0"?>
+<presentation title="Demo 1 Forex" width="720.0000000" height="405.0000000" thmbWidth="78.0000000" thmbHeight="44.0000000" frameRate="24.0000000" looping="0" startingSlideShow="" pptVersion="2013" type="compound" hasExternalAudio="0" uid="{0CC6CA63-7F37-4070-9240-601CD77A26DA}">
+	<presenters/>
+	<company logoAssetId="imgAsset0" webSite="" webSiteTarget="_blank"/>
+	<references/>
+	<soundAssets>
+		<soundAsset id="sndAsset0" src="sound1.mp3" embedded="0" size="226526" duration="37747"/>
+		<soundAsset id="sndAsset1" src="sound2.mp3" embedded="0" size="190321" duration="31713"/>
+		<soundAsset id="sndAsset2" src="sound3.mp3" embedded="0" size="136404" duration="22727"/>
+		<soundAsset id="sndAsset3" src="sound4.mp3" embedded="0" size="181387" duration="30224"/>
+		<soundAsset id="sndAsset4" src="sound5.mp3" embedded="0" size="596734" duration="99448"/>
+		<soundAsset id="sndAsset5" src="sound6.mp3" embedded="0" size="651434" duration="108565"/>
+		<soundAsset id="sndAsset6" src="sound7.mp3" embedded="0" size="717419" duration="119562"/>
+		<soundAsset id="sndAsset7" src="sound8.mp3" embedded="0" size="559901" duration="93309"/>
+		<soundAsset id="sndAsset8" src="sound9.mp3" embedded="0" size="68851" duration="11468"/>
+		<soundAsset id="sndAsset9" src="sound10.mp3" embedded="0" size="39699" duration="6609"/>
+		<soundAsset id="sndAsset10" src="sound11.mp3" embedded="0" size="38288" duration="6374"/>
+	</soundAssets>
+	<sharedAssetsLibrary src="assets.swf"/>
+	<graphicAssets>
+		<graphicAsset id="imgAsset0" src="logo.swf" embedded="0"/>
+		<graphicAsset id="imgAsset1" src="thmb1.swf" embedded="0"/>
+		<graphicAsset id="imgAsset2" src="thmb2.swf" embedded="0"/>
+		<graphicAsset id="imgAsset3" src="thmb3.swf" embedded="0"/>
+		<graphicAsset id="imgAsset4" src="thmb4.swf" embedded="0"/>
+		<graphicAsset id="imgAsset5" src="thmb5.swf" embedded="0"/>
+		<graphicAsset id="imgAsset6" src="thmb6.swf" embedded="0"/>
+		<graphicAsset id="imgAsset7" src="thmb7.swf" embedded="0"/>
+		<graphicAsset id="imgAsset8" src="thmb8.swf" embedded="0"/>
+		<graphicAsset id="imgAsset9" src="thmb9.swf" embedded="0"/>
+		<graphicAsset id="imgAsset10" src="thmb10.swf" embedded="0"/>
+		<graphicAsset id="imgAsset11" src="thmb11.swf" embedded="0"/>
+		<graphicAsset id="imgAsset12" src="thmb12.swf" embedded="0"/>
+	</graphicAssets>
+	<playlists/>
+	<narration/>
+	<settings>
+		<navigation>
+			<keyboard enabled="0">
+				<actions>
+					<action name="playPause">
+						<shortcut code="32" control="0" shift="0"/>
+					</action>
+					<action name="nextSlide">
+						<shortcut code="39" control="0" shift="0"/>
+					</action>
+					<action name="previousSlide">
+						<shortcut code="37" control="0" shift="0"/>
+					</action>
+					<action name="nextStep">
+						<shortcut code="13" control="0" shift="0"/>
+					</action>
+					<action name="previousStep">
+						<shortcut code="13" control="0" shift="1"/>
+					</action>
+					<action name="firstSlide">
+						<shortcut code="36" control="1" shift="0"/>
+					</action>
+					<action name="lastSlide">
+						<shortcut code="35" control="1" shift="0"/>
+					</action>
+					<action name="lastViewedSlide">
+						<shortcut code="8" control="0" shift="0"/>
+					</action>
+					<action name="slideStart">
+						<shortcut code="36" control="0" shift="0"/>
+					</action>
+					<action name="slideEnd">
+						<shortcut code="35" control="0" shift="0"/>
+					</action>
+					<action name="volumeUp">
+						<shortcut code="38" control="0" shift="0"/>
+					</action>
+					<action name="volumeDown">
+						<shortcut code="40" control="0" shift="0"/>
+					</action>
+					<action name="toggleFullscreen">
+						<shortcut code="70" control="1" shift="0"/>
+					</action>
+				</actions>
+			</keyboard>
+			<mouse enabled="0" target="step"/>
+			<gesture zoom="0"/>
+		</navigation>
+		<skin>
+			<colorSettings>
+				<color id="button.content.normal">#FFFFFF</color>
+				<color id="button.content.over">#FFFFFF</color>
+				<color id="button.face.normal">#777777</color>
+				<color id="button.face.over">#575757</color>
+				<color id="companyLogo.background">#FFFFFF</color>
+				<color id="hyperlink">#097CE7</color>
+				<color id="listItem.face.over">#E8E8E8</color>
+				<color id="listItem.face.pressed">#6E6E6E</color>
+				<color id="listItem.label.over">#000000</color>
+				<color id="listItem.label.pressed">#FFFFFF</color>
+				<color id="listItem.label.visited">#A1A1A1</color>
+				<color id="page.background">#8A8A8A</color>
+				<color id="panel.background">#F7F7F7</color>
+				<color id="panel.text">#323232</color>
+				<color id="player.background">#D4D4D4</color>
+				<color id="popup.background">#FFFFFF</color>
+				<color id="progress.background">#6E6E6E</color>
+				<color id="progress.loading">#D0D0D0</color>
+				<color id="progress.playback">#A1A1A1</color>
+				<color id="text">#4D4D4D</color>
+			</colorSettings>
+			<controlPanelSettings>
+				<visible>true</visible>
+				<showOutline>false</showOutline>
+				<showPlayPause>true</showPlayPause>
+				<showRewind>true</showRewind>
+				<showVolumeControl>true</showVolumeControl>
+				<showCCButton>false</showCCButton>
+				<showPrevButton>true</showPrevButton>
+				<showNextButton>true</showNextButton>
+				<showSlideOnlyButton>true</showSlideOnlyButton>
+				<progressBar>
+					<visible>true</visible>
+					<enabled>false</enabled>
+					<showLabels>true</showLabels>
+					<mode>slideTimeline</mode>
+				</progressBar>
+				<navigationMode>bySlides</navigationMode>
+			</controlPanelSettings>
+			<titlePanelSettings>
+				<showLogo>true</showLogo>
+				<visible>true</visible>
+				<buttons>
+					<button type="attachments" visible="false"/>
+					<button type="presenterInfo" visible="false"/>
+					<button type="markerTools" visible="false"/>
+					<button type="notes" visible="false"/>
+					<button type="outline" visible="true"/>
+				</buttons>
+			</titlePanelSettings>
+			<outlinePanelSettings>
+				<numberEntries>true</numberEntries>
+				<highlightViewedEntries>true</highlightViewedEntries>
+				<thumbnails>true</thumbnails>
+				<search>true</search>
+				<multilevel>true</multilevel>
+			</outlinePanelSettings>
+			<sidePanelSettings>
+				<showAtLeft>true</showAtLeft>
+				<showLogo>false</showLogo>
+				<showPresenterInfo>false</showPresenterInfo>
+				<showPresenterVideo>false</showPresenterVideo>
+				<visible>false</visible>
+				<tabsPanel>
+					<showOutline>false</showOutline>
+					<showNotes>true</showNotes>
+				</tabsPanel>
+			</sidePanelSettings>
+		</skin>
+		<appearance fullScreen="1" showSlidePreloader="1"/>
+		<playback autoStart="1" syncWithVideoNarration="1" enableVideoControl="1" resumePresentationPlayback="prompt"/>
+	</settings>
+	<slides embedded="0">
+		<slide index="0" title="Instructions" titleNormalized="instructions" src="slide1.swf" size="64905" advanceOnTime="0" framesCount="1715" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset1">
+			<sounds>
+				<sound id="sound0" soundAssetId="sndAsset0" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+				<sound id="sound1" soundAssetId="sndAsset1" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+				<sound id="sound2" soundAssetId="sndAsset2" hasTriggerEffects="1" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound0" effect="0" startPos="0.0000000"/>
+				<playSound frameIndex="906" soundId="sound1" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="905" playTime="37.7083333" pauseTime="1.4856669"/>
+				<step start="906" end="1714" playTime="33.6666667" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>˂
+The following instructions must be followed to complete the course and get completion certificate.
+Each slide is time bound. 
+If a slide has the following icon, the learner must click on the same for further details. 
+The learner can’t move to the next slide till all activities in a particular slide are completed.
+Quizzes in the session are multiple choice questions. 
+
+About the Course
+This e-learning course is to be attempted by the learner in self-learning mode. The learner is expected to finish each section of this course. 
+Instructions
+Click here to change picture
+The Quiz assesses and facilitates the learning. A wrong answer guides one back to the relevant information while a right answer takes one to the next slide.
+The session has interactions and simulation role plays. Please follow instructions in the slide.
+
+˃
+Click on the icon to read additional information. Click on the icon again for the box to disappear.
+Please click on the play button at the bottom left to move to the next point.</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="1" title="Course Navigation" titleNormalized="course navigation" src="slide2.swf" size="24311" advanceOnTime="0" framesCount="725" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset2">
+			<sounds>
+				<sound id="sound3" soundAssetId="sndAsset3" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound3" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="724" playTime="30.1666667" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Course Navigation
+Please follow instructions
+Next Button
+Next Slide Button
+Screen Size
+Repeat Slide Button
+Top Menu Bar</text>
+		</slide>
+		<slide index="2" title="Forex Markets: Overview" titleNormalized="forex markets: overview" src="slide3.swf" size="42344" advanceOnTime="0" framesCount="2386" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset3">
+			<sounds>
+				<sound id="sound4" soundAssetId="sndAsset4" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound4" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="2385" playTime="99.3750000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes>Let us begin with an overview.
+Before going in to details of FOREX business, you should know first why we, Indian, should be bothered about FOREX ? 
+
+India has to arrange FOREX to meet its commitment to outside world.
+
+India can not print FOREX but India as a country requires FOREX for : 
+Import of goods 
+Payment of medical expenses of its citizens 
+Repayment of loans taken from outside 
+
+Let us now consider the nature of FOREX Markets. Internationally and in India, the Forex markets are virtual as well as physical market where both capital account transactions ( both receipts and payments ) and current account transactions ( both receipts and payments) would be carried out.
+
+India , as a country utilizes FOREX by two ways. Forex Receipts and Payments on both current account and capital account.
+
+First let us look at Receipts. For example:
+Current Account Receipts like export, foreign remittances by NRI, etc. 
+Capital Account Receipts like NRI Deposits, External Commercial Borrowings ( ECB), etc.
+
+2) Next we consider Payments. For example,
+ Current Account Payments  like import bill, outward remittances, etc. 
+Capital Account Payments  like  repayment of NRI Deposits, repayment of External Commercial Borrowings ( ECB), etc.
+
+Now let us look at the importance of FOREX Management from the perspective of the Indian Economy. Please click the next slide button to continue.</notes>
+			<notesNormalized>let us begin with an overview.
+before going in to details of forex business, you should know first why we, indian, should be bothered about forex ? 
+
+india has to arrange forex to meet its commitment to outside world.
+
+india can not print forex but india as a country requires forex for : 
+import of goods 
+payment of medical expenses of its citizens 
+repayment of loans taken from outside 
+
+let us now consider the nature of forex markets. internationally and in india, the forex markets are virtual as well as physical market where both capital account transactions ( both receipts and payments ) and current account transactions ( both receipts and payments) would be carried out.
+
+india , as a country utilizes forex by two ways. forex receipts and payments on both current account and capital account.
+
+first let us look at receipts. for example:
+current account receipts like export, foreign remittances by nri, etc. 
+capital account receipts like nri deposits, external commercial borrowings ( ecb), etc.
+
+2) next we consider payments. for example,
+ current account payments like import bill, outward remittances, etc. 
+capital account payments like repayment of nri deposits, repayment of external commercial borrowings ( ecb), etc.
+
+now let us look at the importance of forex management from the perspective of the indian economy. please click the next slide button to continue.</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="11"&gt;Let us begin with an overview.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;Before going in to details of FOREX business, you should know first why we, Indian, should be bothered about FOREX ? &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;India has to arrange FOREX to meet its commitment to outside world.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;India can not print FOREX but India as a country requires FOREX for : &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;Import of goods &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;Payment of medical expenses of its citizens &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;Repayment of loans taken from outside &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;Let us now consider the nature of FOREX Markets. Internationally and in India, the Forex markets are virtual as well as physical market where both capital account transactions ( both receipts and payments ) and current account transactions ( both receipts and payments) would be carried out.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;India , as a country utilizes FOREX by two ways. Forex Receipts and Payments on both current account and capital account.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;First let us look at Receipts. For example:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;Current Account Receipts like export, foreign remittances by NRI, etc. &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;Capital Account Receipts like NRI Deposits, External Commercial Borrowings ( ECB), etc.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;2) Next we consider Payments. For example,&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt; Current Account Payments  like import bill, outward remittances, etc. &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;Capital Account Payments  like  repayment of NRI Deposits, repayment of External Commercial Borrowings ( ECB), etc.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;Now let us look at the importance of FOREX Management from the perspective of the Indian Economy. Please click the next slide button to continue.&lt;/font&gt;&lt;/p&gt;</notesHtml>
+			<text>Receipts
+
+Payments
+
+Net Working Capital 
+Current Account Receipts like export, remittances, etc. 
+Capital Account Receipts like NRI Deposits, External Commercial Borrowings ( ECB), etc. 
+
+Current Account Payments like import, outward remittances, etc. 
+Capital Account Payments like repayment of NRI Deposits, repayment of External Commercial Borrowings ( ECB), etc.
+This section covers the overview of the Forex business in India
+Forex Markets: Overview
+Before going in to details of FOREX business, you should know first why we, Indian, should be bothered about FOREX ? 
+India can not print FOREX but India as a country requires FOREX for : 
+Import of goods 
+Payment of medical expenses of its citizens 
+Repayment of loans taken from outside 
+India has to arrange FOREX to meet its commitment to outside world.
+FOREX Markets are virtual as well as physical market where both capital account transactions ( receipts and payments ) and current account transactions ( receipts and payments) would take place 
+India , as a country utilizes FOREX by two ways :</text>
+		</slide>
+		<slide index="3" title="Forex Markets: Overview" titleNormalized="forex markets: overview" src="slide4.swf" size="25418" advanceOnTime="0" framesCount="2605" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset4">
+			<sounds>
+				<sound id="sound5" soundAssetId="sndAsset5" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound5" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="2604" playTime="108.5000000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes>Here, we shall look at the importance of the Forex market and forex management for the Indian economy as part of the Forex Market overview. Please note that Management and control of Foreign exchange is critical for the stability of the economy. Please consider the following aspects:
+
+1) Stable exchange rate.  As the exchange rate is dependent on the Foreign exchange demand and supply, proper management ensures that the central bank has the ability to manage supply to meet the demand for forex in the market.
+2) Meeting the demand for Forex. In the global economy, import of critical items, such as fuel, technology and other important items have an impact on the economy. The supply of Forex is critical to manage the steady flow of goods and services for which India is dependent on other countries.
+3) Reducing speculation &amp; other manipulations. The regulation of Forex ensures that the illegal activities are not carried out in the Forex market. The management of Forex allows the government to monitor the money laundering, funding of subversive and terrorist activities etc. which may have a impact on the security of the country and the economy as a whole.
+4) Controlled and regulated supply of Forex allows the Government to manage the reserves of Forex and supply to the market. This impacts the overall credit rating and the credit rating of the economy as a whole.
+5) Overall, Forex plays a very important role in maintaining and managing the stability of the economy. The Government regulates and strictly monitors the Forex activities in the economy through various acts and legislations. 
+
+The banker must be very careful and be aware of the regulations and policies with respect to Forex. Plese click the next slide button to continue.
+</notes>
+			<notesNormalized>here, we shall look at the importance of the forex market and forex management for the indian economy as part of the forex market overview. please note that management and control of foreign exchange is critical for the stability of the economy. please consider the following aspects:
+
+1) stable exchange rate. as the exchange rate is dependent on the foreign exchange demand and supply, proper management ensures that the central bank has the ability to manage supply to meet the demand for forex in the market.
+2) meeting the demand for forex. in the global economy, import of critical items, such as fuel, technology and other important items have an impact on the economy. the supply of forex is critical to manage the steady flow of goods and services for which india is dependent on other countries.
+3) reducing speculation &amp; other manipulations. the regulation of forex ensures that the illegal activities are not carried out in the forex market. the management of forex allows the government to monitor the money laundering, funding of subversive and terrorist activities etc. which may have a impact on the security of the country and the economy as a whole.
+4) controlled and regulated supply of forex allows the government to manage the reserves of forex and supply to the market. this impacts the overall credit rating and the credit rating of the economy as a whole.
+5) overall, forex plays a very important role in maintaining and managing the stability of the economy. the government regulates and strictly monitors the forex activities in the economy through various acts and legislations. 
+
+the banker must be very careful and be aware of the regulations and policies with respect to forex. plese click the next slide button to continue.
+</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="11"&gt;Here, we shall look at the importance of the Forex market and forex management for the Indian economy as part of the Forex Market overview. Please note that Management and control of Foreign exchange is critical for the stability of the economy. Please consider the following aspects:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;1) Stable exchange rate.  As the exchange rate is dependent on the Foreign exchange demand and supply, proper management ensures that the central bank has the ability to manage supply to meet the demand for forex in the market.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;2) Meeting the demand for Forex. In the global economy, import of critical items, such as fuel, technology and other important items have an impact on the economy. The supply of Forex is critical to manage the steady flow of goods and services for which India is dependent on other countries.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;3) Reducing speculation &amp;amp; other manipulations. The regulation of Forex ensures that the illegal activities are not carried out in the Forex market. The management of Forex allows the government to monitor the money laundering, funding of subversive and terrorist activities etc. which may have a impact on the security of the country and the economy as a whole.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;4) Controlled and regulated supply of Forex allows the Government to manage the reserves of Forex and supply to the market. This impacts the overall credit rating and the credit rating of the economy as a whole.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;5) Overall, Forex plays a very important role in maintaining and managing the stability of the economy. The Government regulates and strictly monitors the Forex activities in the economy through various acts and legislations. &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;The banker must be very careful and be aware of the regulations and policies with respect to Forex. Plese click the next slide button to continue.&lt;/font&gt;&lt;/p&gt;</notesHtml>
+			<text>Let us understand the importance of FOREX Market for the Indian economy. 
+2
+Meeting the demand FOREX.
+3
+Reducing scope of speculation.
+4
+Adequate liquidity of foreign currency.
+Stable exchange rate. 
+1
+5
+Stable Economic Growth.
+Forex Market: Overview 
+Management and control of Foreign exchange is critical for the stability of the economy. Please consider the following aspects:
+This section covers the importance of FOREX Market</text>
+		</slide>
+		<slide index="4" title="Forex Markets: Overview" titleNormalized="forex markets: overview" src="slide5.swf" size="34120" advanceOnTime="0" framesCount="2869" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset5">
+			<sounds>
+				<sound id="sound6" soundAssetId="sndAsset6" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound6" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="2868" playTime="119.5000000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes>As part of the Forex market overview, let us look the characteristics of the Forex markets.
+
+The Forex market is regulated and is characterized by need based supply mechanism. The regulator plays an important role in preventing misuse and maintaining the regulated supply mechanism. The market characteristics are:
+
+Since FOREX is regulated securities, it is not available freely in India. 
+Only regulated entities with permission can deal in FOREX.
+The guiding principle of the Forex market are that there is 
+
+1) High degree of regulatory control,  2) Only need based supply mechanism and 3) only legally approved participants can deal in Forex. 
+
+Based on the market characteristics, we shall look at the key participants in the Forex market.
+
+First, we have the Government and RBI approved participants. These comprise of 
+1) Money Changers who can but and sell Forex. Money changers can be full fledged with no restrictions, or, restricted money changers, who can deal in Forex on apecially approved circumstances,
+2) Authorized Dealers or A D, such as Commercial banks, which function as authorized dealers in FOREX.
+
+Second, we have the regulator of Forex, which is the Reserve bank of India.
+
+Third, we have customers who needs Forex. Customers are of two types:
+1)Retail customers, such as individuals requiring FOREX for foreign transactions and travel, etc.
+2) Institutional customers are registered companies which are engaged in export or import activities.
+
+The customers will either buy or sell Forex through the approved participants who are authrorized to deal in Forex approved  and monitored by the regulator.
+
+Let us look at  the authorized participant of the Forex market. Please click the next slide button to continue.
+</notes>
+			<notesNormalized>as part of the forex market overview, let us look the characteristics of the forex markets.
+
+the forex market is regulated and is characterized by need based supply mechanism. the regulator plays an important role in preventing misuse and maintaining the regulated supply mechanism. the market characteristics are:
+
+since forex is regulated securities, it is not available freely in india. 
+only regulated entities with permission can deal in forex.
+the guiding principle of the forex market are that there is 
+
+1) high degree of regulatory control, 2) only need based supply mechanism and 3) only legally approved participants can deal in forex. 
+
+based on the market characteristics, we shall look at the key participants in the forex market.
+
+first, we have the government and rbi approved participants. these comprise of 
+1) money changers who can but and sell forex. money changers can be full fledged with no restrictions, or, restricted money changers, who can deal in forex on apecially approved circumstances,
+2) authorized dealers or a d, such as commercial banks, which function as authorized dealers in forex.
+
+second, we have the regulator of forex, which is the reserve bank of india.
+
+third, we have customers who needs forex. customers are of two types:
+1)retail customers, such as individuals requiring forex for foreign transactions and travel, etc.
+2) institutional customers are registered companies which are engaged in export or import activities.
+
+the customers will either buy or sell forex through the approved participants who are authrorized to deal in forex approved and monitored by the regulator.
+
+let us look at the authorized participant of the forex market. please click the next slide button to continue.
+</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="10"&gt;As part of the Forex market overview, let us look the characteristics of the Forex markets.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10"&gt;The Forex market is regulated and is characterized by need based supply mechanism. The regulator plays an important role in preventing misuse and maintaining the regulated supply mechanism. The market characteristics are:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10"&gt;Since FOREX is regulated securities, it is not available freely in India. &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10"&gt;Only regulated entities with permission can deal in FOREX.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10"&gt;The guiding principle of the Forex market are that there is &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10"&gt;1) High degree of regulatory control,  2) Only need based supply mechanism and 3) only legally approved participants can deal in Forex. &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10"&gt;Based on the market characteristics, we shall look at the key participants in the Forex market.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10"&gt;First, we have the Government and RBI approved participants. These comprise of &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10"&gt;1) Money Changers who can but and sell Forex. Money changers can be full fledged with no restrictions, or, restricted money changers, who can deal in Forex on apecially approved circumstances,&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10"&gt;2) Authorized Dealers or A D, such as Commercial banks, which function as authorized dealers in FOREX.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10"&gt;Second, we have the regulator of Forex, which is the Reserve bank of India.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10"&gt;Third, we have customers who needs Forex. Customers are of two types:&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10"&gt;1)Retail customers, such as individuals requiring FOREX for foreign transactions and travel, etc.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10"&gt;2) Institutional customers are registered companies which are engaged in export or import activities.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10"&gt;The customers will either buy or sell Forex through the approved participants who are authrorized to deal in Forex approved  and monitored by the regulator.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="10"&gt;Let us look at  the authorized participant of the Forex market. Please click the next slide button to continue.&lt;/font&gt;&lt;/p&gt;</notesHtml>
+			<text>Approved Participants
+Money Changers 
+Authorized dealers. 
+Regulator
+Reserve Bank of India
+
+
+Players or participants of FOREX Market
+Let us look at the key participants of the FOREX market based on the characteristics of the market.
+The Forex market is regulated and is characterized by need based supply mechanism. The regulator plays an important role in preventing misuse and maintaining the regulated supply mechanism. The market characteristics are:
+Customers
+Retail Customers, eg. Individuals
+Institutional custoemrs, eg. Company in export/imports etc.
+
+02
+01
+03
+Need Based supply
+Regulator Control
+Approved participants
+Let us look at the FOREX Market Characteristics .
+Money Changers
+Full Fledged Money Changer
+Restricted Money Changers .
+Authorized Dealers 
+Banks work as Authorized Dealers 
+Since FOREX is regulated securities, it is not available freely in India. 
+Only regulated entities with permission can deal in FOREX.
+Forex Market: Overview</text>
+		</slide>
+		<slide index="5" title="Authorized Entities" titleNormalized="authorized entities" src="slide6.swf" size="31044" advanceOnTime="0" framesCount="2239" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset6">
+			<sounds>
+				<sound id="sound7" soundAssetId="sndAsset7" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound7" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="2238" playTime="93.2500000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes>As we have seen earlier, Since FOREX is regulated securities, it is not available freely in India. 
+Only regulated entities with permission can deal in FOREX.
+
+There are 4 categories of authrozed participants dealing with Forex. 
+
+Category 1 participants are allowed to deal in All current account and capital account transaction without any restriction. The Commercial banks, private or PSU Banks, Co Operative banks., etc are examples of such category 1 participants.
+Category 2 participants deal in Specified non trade related current account transaction and all activities permitted by Full Fledged Money Changers. Examples of category 2 participants are Co Operative Banks, Rural Retail Banks, Money Changers. Etc.
+
+Category 3 participants are approved to deal in Transactions incidental to the foreign exchange activities undertaken by these institutions; select Financial and other  Institutions are only eligible.
+
+Category 4 participants are Full Fledged Money Changers who can deal in Purchase and sale of foreign exchange for private and business visits abroad: Examples are the Department of Post , Co Operative Bank , licensed Money Changers, etc.
+
+It is important to understand that apart from the 4 category of participants, no one can deal with or hold Forex beyond a specified limit, or enter into any legal transaction of buying and selling Forex.
+
+Click on the next slide button to continue.
+
+
+</notes>
+			<notesNormalized>as we have seen earlier, since forex is regulated securities, it is not available freely in india. 
+only regulated entities with permission can deal in forex.
+
+there are 4 categories of authrozed participants dealing with forex. 
+
+category 1 participants are allowed to deal in all current account and capital account transaction without any restriction. the commercial banks, private or psu banks, co operative banks., etc are examples of such category 1 participants.
+category 2 participants deal in specified non trade related current account transaction and all activities permitted by full fledged money changers. examples of category 2 participants are co operative banks, rural retail banks, money changers. etc.
+
+category 3 participants are approved to deal in transactions incidental to the foreign exchange activities undertaken by these institutions; select financial and other institutions are only eligible.
+
+category 4 participants are full fledged money changers who can deal in purchase and sale of foreign exchange for private and business visits abroad: examples are the department of post , co operative bank , licensed money changers, etc.
+
+it is important to understand that apart from the 4 category of participants, no one can deal with or hold forex beyond a specified limit, or enter into any legal transaction of buying and selling forex.
+
+click on the next slide button to continue.
+
+
+</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="11"&gt;As we have seen earlier, Since FOREX is regulated securities, it is not available freely in India. &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;Only regulated entities with permission can deal in FOREX.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;There are 4 categories of authrozed participants dealing with Forex. &lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;Category 1 participants are allowed to deal in All current account and capital account transaction without any restriction. The Commercial banks, private or PSU Banks, Co Operative banks., etc are examples of such category 1 participants.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;Category 2 participants deal in Specified non trade related current account transaction and all activities permitted by Full Fledged Money Changers. Examples of category 2 participants are Co Operative Banks, Rural Retail Banks, Money Changers. Etc.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;Category 3 participants are approved to deal in Transactions incidental to the foreign exchange activities undertaken by these institutions; select Financial and other  Institutions are only eligible.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;Category 4 participants are Full Fledged Money Changers who can deal in Purchase and sale of foreign exchange for private and business visits abroad: Examples are the Department of Post , Co Operative Bank , licensed Money Changers, etc.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;It is important to understand that apart from the 4 category of participants, no one can deal with or hold Forex beyond a specified limit, or enter into any legal transaction of buying and selling Forex.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;font size="11"&gt;Click on the next slide button to continue.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</notesHtml>
+			<text>01
+Category I AD.
+02
+Category II AD.
+03
+Category III AD.
+04
+Category IV AD.
+Category 1 AD
+All current account and capital account transaction without any restriction: 
+Banks, Co Operative banks. 
+Category 2 AD
+Specified non trade related current account transaction and all activities permitted by Full Fledged Money Changers 
+Co Operative Banks, RRBs, MC.
+Category 3 AD
+Transactions incidental to the foreign exchange activities undertaken by these institutions; select Financial and other Institutions. 
+Category 4 AD
+Full Fledged Money Changers: Purchase and sale of foreign exchange for private and business visits abroad: Dept of Post , Co Operative Bank , MC.
+Since FOREX is regulated securities, it is not available freely in India. 
+Only regulated entities with permission can deal in FOREX.
+Forex: Authorized Entities</text>
+		</slide>
+		<slide index="6" title="Question 1" titleNormalized="question 1" src="slide7.swf" size="10676" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset7">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes>Correct answer is 3; if wrong please go to slide no 5</notes>
+			<notesNormalized>correct answer is 3; if wrong please go to slide no 5</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;Correct answer is 3; if wrong please go to slide no 5&lt;/font&gt;&lt;/p&gt;</notesHtml>
+			<text>Question 1
+Indian foreign exchange requirement would be met by 
+Printing new foreign exchange 
+ 
+Printing Rupees 
+
+
+Receiving foreign exchange from outside India 
+
+
+All the above 
+</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+			<navigation locked="1"/>
+		</slide>
+		<slide index="7" title="Question 2" titleNormalized="question 2" src="slide8.swf" size="10928" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset8">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes>Correct answer is 4; if wrong please go to slide no 6</notes>
+			<notesNormalized>correct answer is 4; if wrong please go to slide no 6</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;Correct answer is 4; if wrong please go to slide no 6&lt;/font&gt;&lt;/p&gt;</notesHtml>
+			<text>Question 2
+Importance of foreign exchange is due to the fact that proper management of foreign exchange would lead to 
+Stable exchange rate 
+ 
+Meeting the foreign exchange demand 
+
+
+Meeting the inflation target 
+
+
+Both 1 and 2 
+</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+			<navigation locked="1"/>
+		</slide>
+		<slide index="8" title="Question 3" titleNormalized="question 3" src="slide9.swf" size="10664" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset9">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes>Correct answer is 1; if wrong please go to slide no 8</notes>
+			<notesNormalized>correct answer is 1; if wrong please go to slide no 8</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;Correct answer is 1; if wrong please go to slide no 8&lt;/font&gt;&lt;/p&gt;</notesHtml>
+			<text>Question 3
+…………………………………. Deals with foreign exchange without any restrictions 
+
+Category I AD 
+
+ 
+Category II AD
+
+
+Category III AD
+
+
+All the above 
+</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+			<navigation locked="1"/>
+		</slide>
+		<slide index="9" title="RECAP SIM" titleNormalized="recap sim" src="slide10.swf" size="10342" advanceOnTime="0" framesCount="275" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset10">
+			<sounds>
+				<sound id="sound8" soundAssetId="sndAsset8" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound8" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="274" playTime="11.4166667" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>That’s not correct!!! Let’s revisit the concept and try again.
+Wrong Answer Prompt Quiz</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="10" title="RECAP SIM" titleNormalized="recap sim" src="slide11.swf" size="9558" advanceOnTime="0" framesCount="158" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset11">
+			<sounds>
+				<sound id="sound9" soundAssetId="sndAsset9" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound9" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="157" playTime="6.5416667" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>That’s correct!!! Let’s move on.
+Correct Answer Prompt Quiz</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+		<slide index="11" title="RECAP SIM" titleNormalized="recap sim" src="slide12.swf" size="10720" advanceOnTime="0" framesCount="153" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="0" thumbnailAssetId="imgAsset12">
+			<sounds>
+				<sound id="sound10" soundAssetId="sndAsset10" hasTriggerEffects="0" slides="1" repeat="1" volume="0.8000000" effect="0"/>
+			</sounds>
+			<videos/>
+			<transitionEffect name="" duration="0.0000000" soundId="" looped="0"/>
+			<soundCommands>
+				<playSound frameIndex="0" soundId="sound10" effect="0" startPos="0.0000000"/>
+			</soundCommands>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="152" playTime="6.3333333" pauseTime="0.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Great! 
+You have completed this session successfully.
+Correct Answer Prompt Quiz</text>
+			<metaCommands>
+				<command name="changeLayout">
+					<param name="type" value="Full"/>
+				</command>
+			</metaCommands>
+		</slide>
+	</slides>
+	<slideShows>
+		<slideShow name="Q1 R" slides="10,7"/>
+		<slideShow name="Q1 W" slides="9,2,6"/>
+		<slideShow name="Q2 R" slides="10,8"/>
+		<slideShow name="Q2 W" slides="9,3"/>
+		<slideShow name="Q3 R" slides="10,11"/>
+		<slideShow name="Q3 W" slides="9,5,8"/>
+	</slideShows>
+</presentation>
