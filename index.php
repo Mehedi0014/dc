@@ -22,15 +22,19 @@
         ?>
 
         <div class="single-slide slider-img-<?php echo $i; ?>" style="background-image: url(<?php echo $base_url . $document_path_slider . $row_slider['image']; ?>)">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 m-auto text-center">
+            <div class="container-fluid h-100">
+                <div class="row h-100">
+                    
+                    <div class="col-lg-6 m-auto text-center">
                         <div class="slider-slide-text">
                             <?php
                             echo html_entity_decode($row_slider['body']);
                             ?>
                         </div>
                     </div>
+                    <div class="col-lg-6">
+                        
+                    </div>                  
                 </div>
             </div>
         </div>

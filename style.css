@@ -642,11 +642,15 @@ div#preloader {
     font-size: 40px;
     margin: 15px 0;
 }
+.slider-slide-text .btn {
+    margin-top: 20px;
+}
 .slider-slide-text p{
-   margin-top: 30px; 
+   margin-top: 8px; 
 }
 .slider-slide-text h3{
-     margin-top: 160px;
+
+     margin-bottom: 30px;
 }
 .slider-slide-text a.theme-btn {
     margin-top: 30px;
@@ -686,6 +690,17 @@ div#preloader {
 #slider-area .owl-dots .owl-dot:last-child {
     margin-bottom: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /*== Slider Area CSS End ==*/
 
