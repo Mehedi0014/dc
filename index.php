@@ -1,19 +1,16 @@
 <?php include_once 'common/header.php'; ?>
 
-<!--For flash messege-->
 <style>
-        #blink {
-            color: #0000D1;
-            font-size: 20px;
-            font-weight: bold;
-            transition: 1s;
-        }
-   
+    #blink {
+        color: #0000D1;
+        font-size: 20px;
+        font-weight: bold;
+        transition: 1s;
+    }
 </style>
 
 <!--== Slider Area Start ==-->
 <section id="slider-area">
-
     <?php
     $qry_slider = "select * from slider order by sort";
     $res_slider = mysqli_query($con, $qry_slider);
@@ -42,61 +39,53 @@
         <?php
         $i++;
     }
-    ?> 
-
-
-
+    ?>
 </section>
 <!--== Slider Area End ==-->
 
-<!--flash messege-->
 
 
- <div class="popular_program_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section_title text-center">
-                        <p><br></p>
-                        
-                        <!--<a href="https://youtube.com/playlist?list=PLt1cMpqMskmL42Vd4vFsxG_VQW-ngpLCG" id="blink"> Click here for training on Finance for Non Finance folks!</a>-->
-                        <!--<script type="text/javascript">-->
-                        <!--    var blink = document.getElementById('blink');-->
-                        <!--    setInterval(function() {-->
-                        <!--        blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);-->
-                        <!--    }, 1500);-->
-                        <!--</script>-->
-                        
-                        
-                        <marquee  id="blink" scrollamount="12" direction="right">
-                            <a href="<?=$base_url?>course_details.php?crs=942<?=$result_course['id']?>">
-                            Click here for training on Finance for Non Finance folks!
-                            </a>
-                        </marquee>
-                        <p><br></p>
-                    </div>
+<div class="popular_program_area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section_title text-center">
+                    <p><br></p>
+                    
+                    <!-- <a href="https://youtube.com/playlist?list=PLt1cMpqMskmL42Vd4vFsxG_VQW-ngpLCG" id="blink"> Click here for training on Finance for Non Finance folks!</a>
+                    <script type="text/javascript">
+                        var blink = document.getElementById('blink');
+                        setInterval(function() {
+                            blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+                        }, 1500);
+                    </script> -->
+                    
+                    <marquee  id="blink" scrollamount="12" direction="right">
+                        <a href="<?=$base_url?>course_details.php?crs=942<?=$result_course['id']?>">
+                        Click here for training on Finance for Non Finance folks!
+                        </a>
+                    </marquee>
+                    <p><br></p>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
 
 
 <!--== About Area Start ==-->
-<section id="about-area" class="section-padding">
+<!-- <section id="about-area" class="section-padding">
     <div class="container">
         <div class="row">
-            <!-- Section Title Start -->
             <div class="col-lg-12 text-center">
                 <div class="section-title">
                     <h2>About <span>Us</span></h2>
                 </div>
             </div>
-            <!-- Section Title End -->
         </div>
     </div>
 
-    <!-- About Content Start -->
     <?php
     $sql_content1 = "SELECT * FROM `page` WHERE `alias` = 'home'";
     $res_content1 = mysqli_query($con, $sql_content1) or trigger_error("Query Failed! SQL: $sql_content1 - Error: " . mysqli_error(), E_USER_ERROR);
@@ -105,15 +94,12 @@
     <div class="about-content-wrap">
         <div class="container">
             <div class="row">
-                <!-- About Video Area -->
                 <div class="col-lg-7">
                     <div class="about-video-area" style="background-image: url(<?php echo $base_url . $document_page_banner . $row_content1['other_image']; ?>)">
                         <a class="video-click v-popup" href="https://www.youtube.com/watch?v=IdKDIYMFnlo"><i class="fa fa-play"></i></a>
                     </div>
                 </div>
-                <!-- About Video Area -->
 
-                <!-- About Text Area -->
                 <div class="col-lg-5">
                     <div class="about-text-area">
                         <h2>Beautiful &amp; Useful Solutitons</h2>
@@ -123,20 +109,19 @@
                         <a href="<?php echo $base_url; ?>page/why-us" class="theme-btn">READ MORE</a>
                     </div>
                 </div>
-                <!-- About Text Area v-popup -->
             </div>
         </div>
     </div>
-    <!-- About Content End -->
-
-</section>
+</section> -->
 <!--== About Area End ==-->
 
+
+
+
 <!--== Right Think Area Start ==-->
-<section id="right-think" class="section-padding">
+<!-- <section id="right-think" class="section-padding">
     <div class="container">
         <div class="row">
-            <!-- Right Think Top Start -->
             <div class="col-lg-12 text-center">
                 <div class="right-think-top mb-10">
                     <h3><span>OUR </span>SERVICES</h3>
@@ -144,18 +129,14 @@
                     </p>
                 </div>
             </div>
-            <!-- Right Think Top Start -->
         </div>
 
         <div class="row">
-            <!-- Single Right Think -->
-
             <?php
             $qry_service = "select * from service where status = '0' and homepage = 'Yes' order by sort";
             $res_service = mysqli_query($con, $qry_service);
             while ($row_service = mysqli_fetch_array($res_service)) {
                 ?>
-
                 <div class="col-lg-3 col-md-3">
                     <div class="single-right-think">
                         <div class="right-think-thumb">
@@ -163,81 +144,78 @@
                         </div>
                         <div class="right-think-text">
                             <h3><a href="<?php echo $base_url; ?>service/<?php echo $row_service['alias']; ?>"><?php echo $row_service['name']; ?></a></h3>
-                         <!--    <p>Expertness in financial field</p>-->
+                            
                             <?php
-                           // echo substr(html_entity_decode($row_service['description']), 0, 35);
+                            // echo substr(html_entity_decode($row_service['description']), 0, 35);
                             ?>
                         </div>
                     </div>
                 </div>
                 <?php
             }
-            ?> 
-
-
+            ?>
         </div>
     </div>
-</section>
+</section> -->
 <!--== Right Think Area End ==-->
+
+
+
+
 <!--== Starts here Digital Learning video Area==-->
-<section id="right-think" class="section-padding">
+<!-- <section id="right-think" class="section-padding">
     <div class="container">
         <div class="row">
-            <!-- Right Think Top Start -->
             <div class="col-lg-12 text-center">
                 <div class="right-think-top mb-10">
                     <h3><span>Digital </span>Learning</h3>
                     <p>Digital Learning Solutions that combine convenience with efficacy</p>
                 </div>
             </div>
-            <!-- Right Think Top Start -->
         </div>
 
         <div class="row">
-            <!-- Single Right Think -->
-
-            
-
-                <div class="col-lg-4 col-md-4">
-                    <div class="single-right-think">
-                        <div class="right-think-thumb">
-                            <img src="./dis_image/digital-learning.png" alt="demo1">
-                        </div>
-                        <div class="right-think-text">
-                            <h3><a href="../training-module/Cma/" target="_blank">Demo 1</a></h3>
-            
-                        </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="single-right-think">
+                    <div class="right-think-thumb">
+                        <img src="./dis_image/digital-learning.png" alt="demo1">
+                    </div>
+                    <div class="right-think-text">
+                        <h3><a href="../training-module/Cma/" target="_blank">Demo 1</a></h3>
+        
                     </div>
                 </div>
-				
-				<div class="col-lg-4 col-md-4">
-                    <div class="single-right-think">
-                        <div class="right-think-thumb">
-                            <img src="./dis_image/digital-learning.png" alt="demo2">
-                        </div>
-                        <div class="right-think-text">
-                            <h3><a href="../training-module/Forex/" target="_blank">Demo 2</a></h3>
+            </div>
             
-                        </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="single-right-think">
+                    <div class="right-think-thumb">
+                        <img src="./dis_image/digital-learning.png" alt="demo2">
+                    </div>
+                    <div class="right-think-text">
+                        <h3><a href="../training-module/Forex/" target="_blank">Demo 2</a></h3>
+        
                     </div>
                 </div>
-				
-				<div class="col-lg-4 col-md-4">
-                    <div class="single-right-think">
-                        <div class="right-think-thumb">
-                            <img src="./dis_image/digital-learning.png" alt="demo3">
-                        </div>
-                        <div class="right-think-text">
-                            <h3><a href="../training-module/Non-fund/" target="_blank">Demo 3</a></h3>
+            </div>
             
-                        </div>
+            <div class="col-lg-4 col-md-4">
+                <div class="single-right-think">
+                    <div class="right-think-thumb">
+                        <img src="./dis_image/digital-learning.png" alt="demo3">
+                    </div>
+                    <div class="right-think-text">
+                        <h3><a href="../training-module/Non-fund/" target="_blank">Demo 3</a></h3>
+        
                     </div>
                 </div>
-            
-
+            </div>
         </div>
     </div>
-</section>
+</section> -->
+
+
+
 
 <!--== End here  Digital Learning video Area==-->
 <!--== Partner Area Start ==-->
@@ -267,6 +245,10 @@
     </div>
 </div>
 <!--== Partner Area End ==-->
+
+
+
+
 
 <!--== Testimonial Area Start ==-->
 <section id="testimonial-area" class="section-padding"  style="background-image: url(<?php echo $base_url; ?>dis_image/testimonial.jpg)">
@@ -311,6 +293,8 @@
     </div>
 </section>
 <!--== Testimonial Area End ==-->
+
+
 
 
 <!--== Call Back Area Start ==-->
@@ -396,61 +380,55 @@
 </section>
 <!--== Call Back Area End ==-->
 
+
+
+
 <!--== Service Area Start ==-->
-<section id="service-area" class="service-bg section-padding" style="background-image: url(<?php echo $base_url; ?>dis_image/our-training-bg.png)">
+<!-- <section id="service-area" class="service-bg section-padding" style="background-image: url(<?php echo $base_url; ?>dis_image/our-training-bg.png)">
     <div class="container">
         <div class="row">
-            <!-- Section Title Start -->
             <div class="col-lg-12 text-center">
                 <div class="section-title">
                     <h2>Our <span>Courses</span></h2>
                 </div>
             </div>
-            <!-- Section Title End -->
         </div>
 
         <div class="row">
-            <!-- Single Service Start -->
-
-           <?php $htmlCourse = getTrainingHTML($con); 
-           echo (!empty($htmlCourse)) ? $htmlCourse : '';
-           ?>
-
-
-
+            <?php $htmlCourse = getTrainingHTML($con); 
+            echo (!empty($htmlCourse)) ? $htmlCourse : '';
+            ?>
         </div>
     </div>
-</section>
+</section> -->
 <!--== Service Area End ==-->
 
 
+
+
 <!--== Project Area Start ==-->
-<section id="project-area" class="section-padding">
+<!-- <section id="project-area" class="section-padding">
     <div class="container">
         <div class="row">
-            <!-- Section Title Start -->
             <div class="col-lg-12 text-center">
                 <div class="section-title">
                     <h2>Upcoming <span>Training</span></h2>
                 </div>
             </div>
-            <!-- Section Title End -->
         </div>
 
         <div class="row">
             <div class="col-lg-12">
-                <!-- Project Filter Menu Start -->
                 <div class="project-filter-menu">
-                    <!--                    <ul>
-                                            <li class="active" data-filter="*">All</li>
-                                            <li data-filter=".con">Consulting</li>
-                                            <li data-filter=".fin">Finance</li>
-                                            <li data-filter=".mar">Marketing</li>
-                                            <li data-filter=".gro">Growth</li>
-                                            <li data-filter=".tech">Technical</li>
-                                        </ul>-->
+                    <ul>
+                        <li class="active" data-filter="*">All</li>
+                        <li data-filter=".con">Consulting</li>
+                        <li data-filter=".fin">Finance</li>
+                        <li data-filter=".mar">Marketing</li>
+                        <li data-filter=".gro">Growth</li>
+                        <li data-filter=".tech">Technical</li>
+                    </ul>
                 </div>
-                <!-- Project Filter Menu End -->
                 <div class="row project-content-wrap">
                     <?php
                     $d_day = date('Y-m-d');
@@ -459,9 +437,6 @@
 
                     while ($row_course = mysqli_fetch_array($res_course)) {
                         ?>
-
-
-                        <!-- Single Project Start -->
                         <div class="col-lg-4 col-sm-6 con gro">
                             <div class="single-project">
                                 <div class="project-thumb p-thumb-1" style="background-image: url(<?php echo $base_url . $document_path_course . $row_course['homepage_image']; ?>)"></div>
@@ -475,75 +450,72 @@
                     }
                     ?>
 
-
-                    <!--                    <div class="row project-content-wrap">
-                                            
-                                            <div class="col-lg-4 col-sm-6 con gro">
-                                                <div class="single-project">
-                                                    <div class="project-thumb p-thumb-1"></div>
-                                                    <div class="project-hvr-content">
-                                                        <a href="#"><i class="fa fa-link"></i></a>
-                                                        <h3>Consulting &amp; Growth</h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="col-lg-4 col-sm-6 fin mar">
-                                                <div class="single-project">
-                                                    <div class="project-thumb p-thumb-2"></div>
-                                                    <div class="project-hvr-content">
-                                                        <a href="#"><i class="fa fa-link"></i></a>
-                                                        <h3>Finance &amp; Marketing</h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="col-lg-4 col-sm-6 tech gro">
-                                                <div class="single-project">
-                                                    <div class="project-thumb p-thumb-3"></div>
-                                                    <div class="project-hvr-content">
-                                                        <a href="#"><i class="fa fa-link"></i></a>
-                                                        <h3>Technical &amp; Growth</h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="col-lg-4 col-sm-6 fin con">
-                                                <div class="single-project">
-                                                    <div class="project-thumb p-thumb-4"></div>
-                                                    <div class="project-hvr-content">
-                                                        <a href="#"><i class="fa fa-link"></i></a>
-                                                        <h3>Finance &amp; Consulting</h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="col-lg-4 col-sm-6 gro mar">
-                                                <div class="single-project">
-                                                    <div class="project-thumb p-thumb-5"></div>
-                                                    <div class="project-hvr-content">
-                                                        <a href="#"><i class="fa fa-link"></i></a>
-                                                        <h3>Growth &amp; Marketing</h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="col-lg-4 col-sm-6 tech mar">
-                                                <div class="single-project">
-                                                    <div class="project-thumb p-thumb-6"></div>
-                                                    <div class="project-hvr-content">
-                                                        <a href="#"><i class="fa fa-link"></i></a>
-                                                        <h3>Technical &amp; Marketing</h3>
-                                                    </div>
-                                                </div>
-                                            </div>-->
-
+                    <div class="row project-content-wrap">                                            
+                        <div class="col-lg-4 col-sm-6 con gro">
+                            <div class="single-project">
+                                <div class="project-thumb p-thumb-1"></div>
+                                <div class="project-hvr-content">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                    <h3>Consulting &amp; Growth</h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-sm-6 fin mar">
+                            <div class="single-project">
+                                <div class="project-thumb p-thumb-2"></div>
+                                <div class="project-hvr-content">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                    <h3>Finance &amp; Marketing</h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-sm-6 tech gro">
+                            <div class="single-project">
+                                <div class="project-thumb p-thumb-3"></div>
+                                <div class="project-hvr-content">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                    <h3>Technical &amp; Growth</h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-sm-6 fin con">
+                            <div class="single-project">
+                                <div class="project-thumb p-thumb-4"></div>
+                                <div class="project-hvr-content">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                    <h3>Finance &amp; Consulting</h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-sm-6 gro mar">
+                            <div class="single-project">
+                                <div class="project-thumb p-thumb-5"></div>
+                                <div class="project-hvr-content">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                    <h3>Growth &amp; Marketing</h3>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-sm-6 tech mar">
+                            <div class="single-project">
+                                <div class="project-thumb p-thumb-6"></div>
+                                <div class="project-hvr-content">
+                                    <a href="#"><i class="fa fa-link"></i></a>
+                                    <h3>Technical &amp; Marketing</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!--== Project Area End ==-->
 
 
@@ -551,21 +523,17 @@
 
 
 <!--== Team Area Start ==-->
-<section id="team-area" class="section-padding">
+<!-- <section id="team-area" class="section-padding">
     <div class="container">
         <div class="row">
-            <!-- Section Title Start -->
             <div class="col-lg-12 text-center">
                 <div class="section-title">
                     <h2>Management <span>Team</span></h2>
                 </div>
             </div>
-            <!-- Section Title End -->
         </div>
 
         <div class="row">
-            <!-- Single Team Member Start-->
-
             <?php
             $qry_management = "select * from management where status = '0'  order by id";
             $res_management = mysqli_query($con, $qry_management);
@@ -580,10 +548,10 @@
                                 <div class="display-table-cell">
                                     <h3><?php echo $row_management['title']; ?> <span class="tagline"><?php echo $row_management['designation']; ?></span></h3>
                                     <span class="social-ico">
-    <!--                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
                                         <a href="#"><i class="fa fa-twitter"></i></a>
                                         <a href="#"><i class="fa fa-linkedin"></i></a>
-                                        <a href="#"><i class="fa fa-dribbble"></i></a>-->
+                                        <a href="#"><i class="fa fa-dribbble"></i></a>
                                     </span>
                                 </div>
                             </div>
@@ -593,11 +561,15 @@
                 <?php
             }
             ?>
-
         </div>
     </div>
-</section>
+</section> -->
 <!--== Team Area End ==-->
+
+
+
+
+
 
 <?php include_once 'common/footer.php'; 
 function getTrainingHTML($con=null, $html=null)
