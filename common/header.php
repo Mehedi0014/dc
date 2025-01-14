@@ -86,18 +86,15 @@ if (isset($_GET['course'])) {
             "https://in.linkedin.com/company/disseminare-consulting"]
             }
         </script>
-        <!--[if lt IE 9]>
-            <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-            <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
     </head>
 
     <body>
         <!-- Preloader -->
-        <!--        <div id="preloader">
-                    <div class="spinner"></div>
-                </div>-->
+            <!-- <div id="preloader">
+                <div class="spinner"></div>
+            </div> -->
         <!-- End Preloader -->
+         
         <!-- PreHeader Start -->
         <div class="preheader-area">
             <div class="container">
@@ -117,11 +114,8 @@ if (isset($_GET['course'])) {
                             <div class="header-icons">
                                 <a target="_blank" rel="nofollow" href="https://www.facebook.com/Disseminare-Consulting-127941044618492/"><i class="fa fa-facebook"></i></a>
                                 <a target="_blank" rel="nofollow" href="https://www.linkedin.com/company/disseminare-consulting/"><i class="fa fa-linkedin"></i></a>
-<!--                                <a href="#"><i class="fa fa-behance"></i></a>
-                                <a href="#"><i class="fa fa-dribbble"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>-->
                             </div>
-                            <div class="login-reg">
+                            <!-- <div class="login-reg">
                                 <?php
                                 if (isset($_SESSION['cust_user'])) {
                                     ?>
@@ -136,7 +130,7 @@ if (isset($_GET['course'])) {
                                     <?php
                                 }
                                 ?>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <!--  PreHeader Left End -->
@@ -150,57 +144,33 @@ if (isset($_GET['course'])) {
             <!-- Header Top Start -->
             <div class="header-top-area">
                 <div class="container">
-                    <div class="row">
-
-                        <!--                        <div class="col-xl-4 col-lg-3 text-center text-lg-left">-->
+                    <div class="row">                        
                         <div class="col-md-3 col-xs-12 col-lg-3 text-center text-lg-left">
                             <a href="<?php echo $base_url; ?>" class="logo-area">
                                 <img src="<?php echo $base_url . $document_path_site_logo . $row_setting['logo']; ?>" alt="Logo" class="img-responsive">
                             </a>
                         </div>
-
-                        <!--                        <div class="col-xl-8 col-lg-9 d-none d-md-block">-->
+                        
                         <div class="col-xs-12 col-lg-9 col-md-9 d-md-block">
-                            <!--                            <div class="row">
-                                                             HeaderTop Box Item 
-                                                            <div class="col-md-5 col-sm-6">
-                            
-                                                            </div>
-                            
-                                                            <div class="col-md-4 col-sm-6">
-                            
-                                                            </div>
-                            
-                                                            <div class="col-md-3 col-sm-12">-->
-
-                            <div class="headertop-info-right">
+                            <!-- <div class="headertop-info-right">
                                 <a href="<?php echo $base_url; ?>career.php">
-                                    <img src="<?php echo $base_url; ?>dis_image/apply-now.png"></a>
+                                    <img src="<?php echo $base_url; ?>dis_image/apply-now.png">
+                                </a>
                                 <a href="<?php echo $base_url; ?>webinar.php">
-                                    <img src="<?php echo $base_url; ?>dis_image/training-calender.png"></a>
-                                <!--                                        <a href="contact.html" class="get-quote theme-btn">Get a Quote</a>-->
-                            </div>
-                            <!--                                </div>
-                            
-                                                        </div>-->
+                                    <img src="<?php echo $base_url; ?>dis_image/training-calender.png">
+                                </a>
+                            </div> -->
                         </div>
-
                     </div>
                 </div>
-                
-               
             </div>
             <!-- Header Top End -->
             
-           
 
             <!-- Header Bottom Start -->
             <div class="header-bottom">
                 <div class="container">
-                    <div class="row">
-                        
-                        
-                        
+                    <div class="row">                        
                         <!-- Main Menu Start -->
                         <div class="col-lg-12 text-center">
                             <nav class="mainmenu">
@@ -216,7 +186,6 @@ if (isset($_GET['course'])) {
                                                 
                                                 while($row_artc = mysqli_fetch_assoc($res_artc)) 
                                                 {
-                                                                      
                                             ?>
                                             <li><a href="<?php echo $base_url; ?>page/<?php echo $row_artc['alias'];?>"><?php echo $row_artc['title'];?></a></li>
                                             <?php
@@ -233,7 +202,6 @@ if (isset($_GET['course'])) {
                                                 
                                                 while($row_artc = mysqli_fetch_assoc($res_artc)) 
                                                 {
-                                                                      
                                             ?>
                                                 <li><a href="<?php echo $base_url; ?>service/<?php echo $row_artc['alias']?>"><?php echo $row_artc['name']?></a></li>
                                             <?php
@@ -252,29 +220,27 @@ if (isset($_GET['course'])) {
                                             <!--<li><a href="<?php echo $base_url; ?>page/reading-material">Reading Material</a>-->
                                             <!--<li><a href="<?php echo $base_url; ?>retail-banking.php">Retail Banking</a></li>-->
                                             <!--<li><a href="<?php echo $base_url; ?>non-fund-based-working-capital.php">Non Fund Based Working Capital</a></li>-->
-                                            <!--                                            <li><a href="#">Reading Material</a>
-                                                                                            <ul>
-                                                                                                <li><a href="<?php echo $base_url; ?>service/consulting">Consulting</a></li>
-                                                                                                <li><a href="<?php echo $base_url; ?>service/consulting">Consulting</a></li>
-                                                                                            </ul>                                        
-                                                                                        </li>-->
+                                            <!--<li><a href="#">Reading Material</a>
+                                                    <ul>
+                                                        <li><a href="<?php echo $base_url; ?>service/consulting">Consulting</a></li>
+                                                        <li><a href="<?php echo $base_url; ?>service/consulting">Consulting</a></li>
+                                                    </ul>                                        
+                                                </li>-->
                                         
                                             
                                     <li><a href="<?php echo $base_url; ?>blog.php">Blogs</a></li>
                                     <?php
-                                                $qry_artc = "SELECT * FROM `page` WHERE `parent_id` = '2' AND `status` = '0'";
-                                                $res_artc = mysqli_query($con, $qry_artc);
-                                                
-                                                while($row_artc = mysqli_fetch_assoc($res_artc)) 
-                                                {
-                                                                      
-                                            ?>
-                                            <li><a href="<?php echo $base_url; ?>page/<?php echo $row_artc['alias'];?>"><?php echo $row_artc['title'];?></a></li>
-                                            <?php
-                                                }
+                                    $qry_artc = "SELECT * FROM `page` WHERE `parent_id` = '2' AND `status` = '0'";
+                                    $res_artc = mysqli_query($con, $qry_artc);
+                                    
+                                    while($row_artc = mysqli_fetch_assoc($res_artc)) 
+                                    {
+                                    ?>
+                                    <li><a href="<?php echo $base_url; ?>page/<?php echo $row_artc['alias'];?>"><?php echo $row_artc['title'];?></a></li>
+                                    <?php
+                                    }
                                     ?>
                                     </ul>
-                                               
                                     </li>
                                     <li><a href="#">Courses</a>
                                     <ul>
@@ -286,7 +252,6 @@ if (isset($_GET['course'])) {
                                                 
                                                 while($row_artc = mysqli_fetch_assoc($res_artc)) 
                                                 {
-                                                                      
                                             ?>
                                             <li><a href="<?php echo $base_url; ?>page/<?php echo $row_artc['alias'];?>"><?php echo $row_artc['title'];?></a></li>
                                             <?php
@@ -294,23 +259,23 @@ if (isset($_GET['course'])) {
                                         ?>    
                                     </ul></li>
                                     <li><a href="<?php echo $base_url; ?>gallery.php">Gallery</a></li>
-                                    <!--                                    <li><a href="#">Global</a>
-                                                                        
-                                                                            <ul>
-                                                                                <li><a href="<?php // echo $base_url;    ?>page/disseminare-singapore">Disseminare@ Singapore</a></li>
-                                                                            <li><a href="<?php //echo $base_url;    ?>page/disseminare-bangladesh">Disseminare@ Bangladesh</a></li>    
-                                                                              
-                                                                            </ul>
-                                                                        </li>-->
+                                    <!--<li><a href="#">Global</a>
+                                    
+                                        <ul>
+                                            <li><a href="<?php // echo $base_url;    ?>page/disseminare-singapore">Disseminare@ Singapore</a></li>
+                                        <li><a href="<?php //echo $base_url;    ?>page/disseminare-bangladesh">Disseminare@ Bangladesh</a></li>    
+                                            
+                                        </ul>
+                                    </li>-->
                                     <li><a href="<?php echo $base_url; ?>career.php">Career</a></li>
-                                    <!--                                    <li><a href="#">Calender</a>
-                                                                            <ul>
-                                                                                <li><a href="<?php echo $base_url; ?>gallery.php">Gallery</a></li>
-                                                                                <li><a href="career.html">Past Assignments</a></li>
-                                                                                <li><a href="testimonial.html">Current Assignments</a></li>
-                                                                                <li><a href="<?php echo $base_url; ?>all_courses.php">Upcoming Assignments</a></li>
-                                                                            </ul>
-                                                                        </li>-->
+                                    <!--<li><a href="#">Calender</a>
+                                        <ul>
+                                            <li><a href="<?php echo $base_url; ?>gallery.php">Gallery</a></li>
+                                            <li><a href="career.html">Past Assignments</a></li>
+                                            <li><a href="testimonial.html">Current Assignments</a></li>
+                                            <li><a href="<?php echo $base_url; ?>all_courses.php">Upcoming Assignments</a></li>
+                                        </ul>
+                                    </li>-->
                                     <li><a href="<?php echo $base_url; ?>certification.php">Certification</a></li>
                                     <li><a href="<?php echo $base_url; ?>contact-us.php">Contact Us</a></li>
 
@@ -322,17 +287,17 @@ if (isset($_GET['course'])) {
                         <!-- Header Bottom Right -->
                         <div class="col-lg-3 text-right">
                             <div class="header-b-right">
-                                <!--                                <ul>
-                                                                    <li><a class="search-icon" href="#"><i class="fa fa-search"></i></a>
-                                                                        <div class="search-form-box">
-                                                                            <form action="index.html">
-                                                                                <input type="search" placeholder="Type Here">
-                                                                                <button><i class="fa fa-search"></i></button>
-                                                                            </form>
-                                                                        </div>
-                                                                    </li>
-                                                                     <li><a class="menubar-icon" href="#"><i class="fa fa-bars"></i></a></li> 
-                                                                </ul>-->
+                                <!--<ul>
+                                    <li><a class="search-icon" href="#"><i class="fa fa-search"></i></a>
+                                        <div class="search-form-box">
+                                            <form action="index.html">
+                                                <input type="search" placeholder="Type Here">
+                                                <button><i class="fa fa-search"></i></button>
+                                            </form>
+                                        </div>
+                                    </li>
+                                        <li><a class="menubar-icon" href="#"><i class="fa fa-bars"></i></a></li> 
+                                </ul>-->
                             </div>
                         </div>
                         <!-- Header Bottom Right -->
