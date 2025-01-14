@@ -4056,10 +4056,17 @@ h1.mt-0{
 
 
 
+/* why us page */
+#why-us-area .list-group-flush .list-group-item {
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    border: 0;
+    padding-top: 0px;
+    padding-bottom: 7px;
+}
 
-
-
-
-
-    
-   
+span.htmlEntitiesForParagraph {
+    font-size: 22px;
+    color: #0071bc;
+}

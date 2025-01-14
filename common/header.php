@@ -178,19 +178,20 @@ if (isset($_GET['course'])) {
                                     <li><a href="<?php echo $base_url; ?>">Home</a></li>
                                     <li><a href="#">About Us</a>
                                         <ul>
-                                            <!--<li><a href="<?php //echo $base_url; ?>page/why-us">Why Us</a></li>-->
-                                            <!--<li><a href="<?php //echo $base_url; ?>page/learning-methodology">Learning Methodology</a></li>-->
-                                            <?php
+                                            <li><a href="<?php //echo $base_url; ?>why-us">Why Us</a></li>
+                                            <li><a href="<?php //echo $base_url; ?>learning-methodology">Learning Methodology</a></li>
+                                            <!--  <?php
                                                 $qry_artc = "SELECT * FROM `page` WHERE `parent_id` = '1' AND `status` = '0'";
                                                 $res_artc = mysqli_query($con, $qry_artc);
                                                 
                                                 while($row_artc = mysqli_fetch_assoc($res_artc)) 
                                                 {
                                             ?>
-                                            <li><a href="<?php echo $base_url; ?>page/<?php echo $row_artc['alias'];?>"><?php echo $row_artc['title'];?></a></li>
+                                                <li><a href="<?php echo $base_url; ?>page/<?php echo $row_artc['alias'];?>"><?php echo $row_artc['title'];?></a></li>
                                             <?php
                                                 }
-                                            ?>
+                                            ?> -->
+                                            
                                             <li><a href="<?php echo $base_url; ?>management.php">Management Team</a></li>
                                         </ul>
                                     </li>
