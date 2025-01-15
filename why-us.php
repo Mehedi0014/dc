@@ -30,13 +30,6 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
 
 <!--== Team Area Start ==-->
 <section id="why-us-area" class="section-padding">
-    
-
-
-
-
-
-
     <div class="container my-2">
         <h2 class="text-center mb-4">Why Us?</h2>
         <div class="row">
@@ -63,7 +56,7 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                         <li class="list-group-item"><strong>Small Finance Banks:</strong> Equitas Small Finance Bank, etc.</li>
                         <li class="list-group-item"><strong>Premier Business Schools:</strong> IIM Calcutta, IIM Udaipur, etc.</li>
                         <li class="list-group-item"><strong>KPO/Collection Agencies:</strong> CBSL, Startek, and more</li>
-                </ul>
+                    </ul>
                 </div>
                 <p class="pb-3">
                     <span class="htmlEntitiesForParagraph"><strong>&raquo;</strong></span>
@@ -84,19 +77,6 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </section>
 <!--== Team Area End ==-->
 

@@ -43,7 +43,7 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                     while ($row_management = mysqli_fetch_array($res_management)) {
                         ?>
                         <li class="nav-item">
-                            <a class="nav-link <?php echo $i == '1' ? 'active' : ''; ?>" id="member_one" data-toggle="tab" href="#<?php echo 'mamber_' . $row_management['id']; ?>" role="tab" aria-controls="<?php echo 'mamber_' . $row_management['id']; ?>" aria-selected="true">
+                            <a class="nav-link <?php echo $i == '1' ? 'active' : ''; ?>" id="member_one-<?php echo $i; ?>" data-toggle="tab" href="#<?php echo 'mamber_' . $row_management['id']; ?>" role="tab" aria-controls="<?php echo 'mamber_' . $row_management['id']; ?>" aria-selected="true">
                                 <img src="<?php echo $base_url . $document_path_management . $row_management['banner_img']; ?>" alt="<?php echo $row_management['title']; ?>">
                             </a>
                         </li>
