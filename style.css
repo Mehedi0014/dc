@@ -381,7 +381,7 @@ div#preloader {
 
 .mainmenu li {
     display: inline;
-    margin-right: 25px;
+    margin-right: 16px;
     position: relative;
 }
 
@@ -391,6 +391,13 @@ div#preloader {
     font-weight: 500;
     padding: 15px 0;
     text-transform: uppercase;
+}
+
+.mainmenu li .fa {
+    font-size: 18px;
+    line-height: 36px;
+    margin-left: 3px;
+    color: #fff;
 }
 
 .mainmenu li ul {
@@ -4048,12 +4055,6 @@ h1.mt-0{
     font-size: 14px;
 
 }
-
-
-
-
-
-
 
 
 /* why us page */

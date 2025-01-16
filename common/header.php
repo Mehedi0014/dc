@@ -176,7 +176,9 @@ if (isset($_GET['course'])) {
                             <nav class="mainmenu">
                                 <ul>
                                     <li><a href="<?php echo $base_url; ?>">Home</a></li>
-                                    <li><a href="#">About Us</a>
+                                    <li>
+                                        <a href="#">About Us</a>
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
                                         <ul>
                                             <li><a href="<?php //echo $base_url; ?>why-us">Why Us</a></li>
                                             <li><a href="<?php //echo $base_url; ?>learning-methodology">Learning Methodology</a></li>
@@ -195,7 +197,9 @@ if (isset($_GET['course'])) {
                                             <li><a href="<?php echo $base_url; ?>management.php">Management Team</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Explore Products</a>
+                                    <li>
+                                        <a href="#">Explore Products</a>
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
                                         <ul>
                                             <?php
                                                 $qry_artc = "SELECT * FROM `service` WHERE `status` = '0'";
@@ -215,7 +219,9 @@ if (isset($_GET['course'])) {
                                             <!--<li><a href="<?php //echo $base_url; ?>service/vulnerability">Vulnerability Assessment</a></li>-->
                                         </ul>
                                     </li>
-                                    <li><a href="#">Knowledge Center</a>
+                                    <li>
+                                        <a href="#">Knowledge Center</a>
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
                                         <ul>
                                             <li><a href="<?php echo $base_url; ?>latest-banking.php">Latest@ Banking</a></li>
                                             <!--<li><a href="<?php echo $base_url; ?>page/reading-material">Reading Material</a>-->
@@ -229,36 +235,39 @@ if (isset($_GET['course'])) {
                                                 </li>-->
                                         
                                             
-                                    <li><a href="<?php echo $base_url; ?>blog.php">Blogs</a></li>
-                                    <?php
-                                    $qry_artc = "SELECT * FROM `page` WHERE `parent_id` = '2' AND `status` = '0'";
-                                    $res_artc = mysqli_query($con, $qry_artc);
-                                    
-                                    while($row_artc = mysqli_fetch_assoc($res_artc)) 
-                                    {
-                                    ?>
-                                    <li><a href="<?php echo $base_url; ?>page/<?php echo $row_artc['alias'];?>"><?php echo $row_artc['title'];?></a></li>
-                                    <?php
-                                    }
-                                    ?>
-                                    </ul>
-                                    </li>
-                                    <li><a href="#">Courses</a>
-                                    <ul>
-                                        <li><a href="<?php echo $base_url; ?>training.php">Classroom Training</a></li>
-                                        <li><a href="<?php echo $base_url; ?>e-learning_courses.php">E-learning Course</a></li>
-                                        <?php
-                                                $qry_artc = "SELECT * FROM `page` WHERE `parent_id` = '3' AND `status` = '0'";
-                                                $res_artc = mysqli_query($con, $qry_artc);
-                                                
-                                                while($row_artc = mysqli_fetch_assoc($res_artc)) 
-                                                {
+                                            <li><a href="<?php echo $base_url; ?>blog.php">Blogs</a></li>
+                                            <?php
+                                            $qry_artc = "SELECT * FROM `page` WHERE `parent_id` = '2' AND `status` = '0'";
+                                            $res_artc = mysqli_query($con, $qry_artc);
+                                            
+                                            while($row_artc = mysqli_fetch_assoc($res_artc)) 
+                                            {
                                             ?>
                                             <li><a href="<?php echo $base_url; ?>page/<?php echo $row_artc['alias'];?>"><?php echo $row_artc['title'];?></a></li>
                                             <?php
-                                                }
-                                        ?>    
-                                    </ul></li>
+                                            }
+                                            ?>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Courses</a>
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                        <ul>
+                                            <li><a href="<?php echo $base_url; ?>training.php">Classroom Training</a></li>
+                                            <li><a href="<?php echo $base_url; ?>e-learning_courses.php">E-learning Course</a></li>
+                                            <?php
+                                                    $qry_artc = "SELECT * FROM `page` WHERE `parent_id` = '3' AND `status` = '0'";
+                                                    $res_artc = mysqli_query($con, $qry_artc);
+                                                    
+                                                    while($row_artc = mysqli_fetch_assoc($res_artc)) 
+                                                    {
+                                                ?>
+                                                <li><a href="<?php echo $base_url; ?>page/<?php echo $row_artc['alias'];?>"><?php echo $row_artc['title'];?></a></li>
+                                                <?php
+                                                    }
+                                            ?>    
+                                        </ul>
+                                    </li>
                                     <li><a href="<?php echo $base_url; ?>gallery.php">Gallery</a></li>
                                     <!--<li><a href="#">Global</a>
                                     
@@ -279,7 +288,6 @@ if (isset($_GET['course'])) {
                                     </li>-->
                                     <li><a href="<?php echo $base_url; ?>certification.php">Certification</a></li>
                                     <li><a href="<?php echo $base_url; ?>contact-us.php">Contact Us</a></li>
-
                                 </ul>
                             </nav>
                         </div>
