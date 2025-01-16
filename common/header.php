@@ -160,6 +160,9 @@ if (isset($_GET['course'])) {
                                     <img src="<?php echo $base_url; ?>dis_image/training-calender.png">
                                 </a>
                             </div> -->
+                            <div class="headertop-info-right">
+                                <h6>17+ Years of Global Excellence in BFSI Training & Consulting!!</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -197,7 +200,8 @@ if (isset($_GET['course'])) {
                                             <li><a href="<?php echo $base_url; ?>management.php">Management Team</a></li>
                                         </ul>
                                     </li>
-                                    <li>
+                                    <li><a href="<?php echo $base_url; ?>esteemed-clients.php">Esteemed Clients</a></li>
+                                    <!-- <li>
                                         <a href="#">Explore Products</a>
                                         <i class="fa fa-caret-down" aria-hidden="true"></i>
                                         <ul>
@@ -212,13 +216,13 @@ if (isset($_GET['course'])) {
                                             <?php
                                                 }
                                             ?>
-                                            <!--<li><a href="<?php //echo $base_url; ?>service/training">Training</a></li>-->
-                                            <!--<li><a href="<?php //echo $base_url; ?>service/public-workshop">Public Workshop</a></li>-->
-                                            <!--<li><a href="<?php //echo $base_url; ?>service/digital-learning">Digital Learning</a></li>-->
-                                            <!--<li><a href="<?php //echo $base_url; ?>service/consulting">Consulting</a></li>-->
-                                            <!--<li><a href="<?php //echo $base_url; ?>service/vulnerability">Vulnerability Assessment</a></li>-->
+                                            <li><a href="<?php //echo $base_url; ?>service/training">Training</a></li>
+                                            <li><a href="<?php //echo $base_url; ?>service/public-workshop">Public Workshop</a></li>
+                                            <li><a href="<?php //echo $base_url; ?>service/digital-learning">Digital Learning</a></li>
+                                            <li><a href="<?php //echo $base_url; ?>service/consulting">Consulting</a></li>
+                                            <li><a href="<?php //echo $base_url; ?>service/vulnerability">Vulnerability Assessment</a></li>
                                         </ul>
-                                    </li>
+                                    </li> -->
                                     <li>
                                         <a href="#">Knowledge Center</a>
                                         <i class="fa fa-caret-down" aria-hidden="true"></i>
@@ -250,7 +254,7 @@ if (isset($_GET['course'])) {
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="#">Courses</a>
+                                        <a href="#">Explore Products</a>
                                         <i class="fa fa-caret-down" aria-hidden="true"></i>
                                         <ul>
                                             <li><a href="<?php echo $base_url; ?>training.php">Classroom Training</a></li>

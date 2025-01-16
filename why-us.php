@@ -31,18 +31,14 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
 <!--== Team Area Start ==-->
 <section id="why-us-area" class="section-padding">
     <div class="container my-2">
-        <h2 class="text-center mb-4">Why Us?</h2>
-        <div class="row">
-            <div class="col-12 text-center">
-                <h4 class="text-primary font-weight-bold">17 years ----- 70+ partner financial institutions ------- 5 Lakhs+ officials trained</h4>
+        <div class="row mb-3">
+            <div class="col-12 text-center top-text">
+                <h4 class="text-primary font-weight-bold pb-2">17 years ----- 70+ partner financial institutions ------- 5 Lakhs+ officials trained</h4>
             </div>
         </div>
         <div class="row mt-4">
             <div class="col-12">
-                <p>
-                    Disseminare has established itself as a niche global brand in the banking and finance sector over the past 17 years.
-                </p>
-                <br>
+                <p class="text-center mb-5"> Disseminare has established itself as a niche global brand in the banking and finance sector over the past 17 years. </p>
                 <div class="mb-4">
                     <h5 class="mb-2">
                         The only training company to have collaborated with a diverse clientele, including:

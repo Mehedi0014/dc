@@ -98,7 +98,7 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
         }
         
         ?>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-md-12 col-lg-12">
                 <div class="job-list">
                     <div class="accordion-option">
@@ -109,6 +109,14 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                     <?php echo (!empty($accord_html)) ? $accord_html : '<h4>Currently no openings found</h4>'?>
                     </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="section-title">
+                    <h2>Coming Soon</h2>
                 </div>
             </div>
         </div>

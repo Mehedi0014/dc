@@ -381,13 +381,13 @@ div#preloader {
 
 .mainmenu li {
     display: inline;
-    margin-right: 16px;
+    margin-right: 10px;
     position: relative;
 }
 
 .mainmenu li a {
     display: inline-block;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     padding: 15px 0;
     text-transform: uppercase;
@@ -4057,7 +4057,9 @@ h1.mt-0{
 }
 
 
-/* why us page */
+/* ================================================================
+    why us page
+================================================================ */
 #why-us-area .list-group-flush .list-group-item {
     border-right: 0;
     border-left: 0;
@@ -4070,4 +4072,92 @@ h1.mt-0{
 span.htmlEntitiesForParagraph {
     font-size: 22px;
     color: #0071bc;
+}
+
+#why-us-area .top-text h4::before {
+    background-color: #46c3e8;
+    bottom: -6px;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 50px;
+}
+
+#why-us-area .top-text h4::after {
+    background-color: #0f1341;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 80px;
+}
+
+
+
+/* ================================================================
+    esteemed clients page
+================================================================ */
+#regulated-entities-logo-gallery .thumb {
+	margin-bottom: 15px;
+}
+#regulated-entities-logo-gallery .thumb:last-child {
+	margin-bottom: 0;
+}
+#regulated-entities-logo-gallery .thumb figure img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);    
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+#regulated-entities-logo-gallery .thumb figure:hover img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#esteemed-clients-main-area .top-text h4::before {
+    background-color: #46c3e8;
+    bottom: -6px;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 50px;
+}
+
+#esteemed-clients-main-area .top-text h4::after {
+    background-color: #0f1341;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 80px;
+}
+
+#esteemed-clients-main-area .section-title {
+    margin-bottom: 40px;
+    display: inline-block;
+    position: relative;
+}
+
+#esteemed-clients-main-area .section-title h4::after {
+    background-color: #0071bc;
+    bottom: -9px;
+    content: "";
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%;
 }
