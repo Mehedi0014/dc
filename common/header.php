@@ -151,7 +151,7 @@ if (isset($_GET['course'])) {
                             </a>
                         </div>
                         
-                        <div class="col-xs-12 col-lg-9 col-md-9 d-md-block">
+                        <div class="col-xs-12 col-lg-9 col-md-9 d-flex justify-content-end align-items-center">
                             <!-- <div class="headertop-info-right">
                                 <a href="<?php echo $base_url; ?>career.php">
                                     <img src="<?php echo $base_url; ?>dis_image/apply-now.png">
@@ -161,7 +161,7 @@ if (isset($_GET['course'])) {
                                 </a>
                             </div> -->
                             <div class="headertop-info-right">
-                                <h6>17+ Years of Global Excellence in BFSI Training & Consulting!!</h6>
+                                <h5>17+ Years of Global Excellence in BFSI Training & Consulting!!</h5>
                             </div>
                         </div>
                     </div>

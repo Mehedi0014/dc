@@ -298,6 +298,12 @@ div#preloader {
     margin: 16px 0;
 }
 
+.headertop-info-right h5 {
+	color: #0071bc;
+	text-shadow: 3px 4px 6px rgba(0,113,188,0.61);
+	font-style: italic;
+}
+
 .logo-area {
     display: inline-block;
 }
