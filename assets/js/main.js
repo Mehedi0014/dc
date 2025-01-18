@@ -167,7 +167,8 @@
         });
 
         // Start - logo gallery for esteemed clients page
-        $(".regulated-entities-logo-gallery").magnificPopup({
+
+        /* $(".regulated-entities-logo-gallery").magnificPopup({
             delegate: "a",
             type: "image",
             tLoading: "Loading image #%curr%...",
@@ -180,7 +181,8 @@
             image: {
                 tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
             }
-        });
+        }); */
+
         // End - logo gallery for esteemed clients page
 
     }); //Ready Function End

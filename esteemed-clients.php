@@ -48,11 +48,11 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                     <h4>Regulators</h4>
                 </div>
             </div>
-            <div class="offset-sm-3 col-md-3 mb-3">
+            <div class="offset-sm-2 col-md-4 mb-3">
                 <img src="<?php echo $base_url; ?>\upload\esteemed-clients\01.png" alt="" class="img-fluid img-thumbnail h-100 w-100">
             </div>
-            <div class="col-md-3 mb-3">
-                <img src="<?php echo $base_url; ?>\upload\esteemed-clients\02.webp" alt="" class="img-fluid img-thumbnail h-100 w-100">
+            <div class="col-md-4 mb-3">
+                <img src="<?php echo $base_url; ?>\upload\esteemed-clients\02.png" alt="" class="img-fluid img-thumbnail h-100 w-100">
             </div>    
         </div>
 
@@ -62,13 +62,13 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                     <h4>Academic Institutions and Bodies</h4>
                 </div>
             </div>
-            <div class="offset-sm-3 col-md-2 mb-3">
+            <div class="col-md-4 mb-3">
                 <img src="<?php echo $base_url; ?>\upload\esteemed-clients\03.png" alt="" class="img-fluid img-thumbnail h-100 w-100">
             </div>
-            <div class="col-md-2 mb-3">
+            <div class="col-md-4 mb-3">
                 <img src="<?php echo $base_url; ?>\upload\esteemed-clients\04.png" alt="" class="img-fluid img-thumbnail h-100 w-100">
             </div>
-            <div class="col-md-2 mb-3">
+            <div class="col-md-4 mb-3">
                 <img src="<?php echo $base_url; ?>\upload\esteemed-clients\05.png" alt="" class="img-fluid img-thumbnail h-100 w-100">
             </div> 
         </div>
@@ -83,7 +83,88 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                     </div>
                 </div>
             </div>
-            <div class="row regulated-entities-logo-gallery">            
+            <div class="row">            
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\06.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\07.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\08.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\09.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\10.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\11.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\12.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\13.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\14.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\15.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\16.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\17.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\18.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\19.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\20.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\21.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\22.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\23.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\24.png" alt="logo"></figure>    
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\25.png" alt="logo"></figure>    
+                </div>
+            </div>
+            <!-- <div class="row regulated-entities-logo-gallery">            
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                     <a href="<?php echo $base_url; ?>\upload\esteemed-clients\06.png">
                         <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\06.png" alt="logo"></figure>
@@ -109,8 +190,8 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a href="<?php echo $base_url; ?>\upload\esteemed-clients\10.jpg">
-                        <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\10.jpg" alt="logo"></figure>
+                    <a href="<?php echo $base_url; ?>\upload\esteemed-clients\10.png">
+                        <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\10.png" alt="logo"></figure>
                     </a>
                 </div>
 
@@ -127,8 +208,8 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a href="<?php echo $base_url; ?>\upload\esteemed-clients\13.jpg">
-                        <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\13.jpg" alt="logo"></figure>
+                    <a href="<?php echo $base_url; ?>\upload\esteemed-clients\13.png">
+                        <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\13.png" alt="logo"></figure>
                     </a>
                 </div>
 
@@ -139,14 +220,14 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a href="<?php echo $base_url; ?>\upload\esteemed-clients\15.jpg">
-                        <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\15.jpg" alt="logo"></figure>
+                    <a href="<?php echo $base_url; ?>\upload\esteemed-clients\15.png">
+                        <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\15.png" alt="logo"></figure>
                     </a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a href="<?php echo $base_url; ?>\upload\esteemed-clients\16.jpg">
-                        <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\16.jpg" alt="logo"></figure>
+                    <a href="<?php echo $base_url; ?>\upload\esteemed-clients\16.png">
+                        <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\16.png" alt="logo"></figure>
                     </a>
                 </div>
 
@@ -193,17 +274,17 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a href="<?php echo $base_url; ?>\upload\esteemed-clients\24.jpg">
-                        <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\24.jpg" alt="logo"></figure>
+                    <a href="<?php echo $base_url; ?>\upload\esteemed-clients\24.png">
+                        <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\24.png" alt="logo"></figure>
                     </a>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                    <a href="<?php echo $base_url; ?>\upload\esteemed-clients\25.jpg">
-                        <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\25.jpg" alt="logo"></figure>
+                    <a href="<?php echo $base_url; ?>\upload\esteemed-clients\25.png">
+                        <figure><img class="img-fluid img-thumbnail" src="<?php echo $base_url; ?>\upload\esteemed-clients\25.png" alt="logo"></figure>
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
 
     </div>
