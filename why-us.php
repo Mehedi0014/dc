@@ -31,14 +31,38 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
 <!--== Team Area Start ==-->
 <section id="why-us-area" class="section-padding">
     <div class="container my-2">
-        <div class="row mb-3">
-            <div class="col-12 text-center top-text">
-                <h4 class="text-primary font-weight-bold pb-2">17 years ----- 70+ partner financial institutions ------- 5 Lakhs+ officials trained</h4>
+        <div class="row mb-3">            
+            <div class="col-md-4">
+                <div class="why-us-heading-box">
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <span class="text-center">17 years</span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="why-us-heading-box">
+                    <i class="fa fa-university" aria-hidden="true"></i>
+                    <span class="text-center">Partner financi al institutions</span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="why-us-heading-box">
+                    <i class="fa fa-users" aria-hidden="true"></i>
+                    <span class="text-center">5 Lakhs+ officials trained</span>
+                </div>
             </div>
         </div>
+
+        <div class="row mb-5">
+            <div class="col-12 text-center top-text mt-5">
+                <h4 class="text-primary font-weight-bold pb-2">Disseminare has established itself as a niche global brand in the banking and finance sector over the past 17 years.</h4>
+            </div>
+        </div>
+
+
+
+
         <div class="row mt-4">
             <div class="col-12">
-                <p class="text-center mb-5"> Disseminare has established itself as a niche global brand in the banking and finance sector over the past 17 years. </p>
                 <div class="mb-4">
                     <h5 class="mb-2">
                         The only training company to have collaborated with a diverse clientele, including:

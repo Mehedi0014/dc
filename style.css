@@ -4104,6 +4104,24 @@ span.htmlEntitiesForParagraph {
     width: 80px;
 }
 
+.why-us-heading-box {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0071bc;
+    flex-direction: column;
+    padding: 20px 5px 20px 5px;
+    border-radius: 12px;
+    box-shadow: 7px 8px 4px rgba(0,0,0,.3);
+}
+
+.why-us-heading-box i {
+	color: #0071bc;
+	font-size: 35px;
+	margin-bottom: 18px;
+}
+
 
 
 /* ================================================================
