@@ -102,7 +102,7 @@ if (isset($_GET['course'])) {
                     <!--  PreHeader Left Start -->
                     <div class="col-lg-6 d-none d-lg-block">
                         <div class="header-top-left">
-                            <a href="tel:+9831195208"><i class="fa fa-phone"></i> +919831195208</a>
+                            <a href="tel:+9831195208"><i class="fa fa-phone"></i> +91-9820301067</a>
                             <a href="mailto:info@disseminare.com"><i class="fa fa-envelope"></i> info@disseminare.com</a>
                         </div>
                     </div>
@@ -258,7 +258,7 @@ if (isset($_GET['course'])) {
                                         <i class="fa fa-caret-down" aria-hidden="true"></i>
                                         <ul>
                                             <li><a href="<?php echo $base_url; ?>training.php">Classroom Training</a></li>
-                                            <li><a href="<?php echo $base_url; ?>e-learning_courses.php">E-learning Course</a></li>
+                                            <li><a href="<?php echo $base_url; ?>e-learning_courses.php">Virtual training</a></li>
                                             <?php
                                                     $qry_artc = "SELECT * FROM `page` WHERE `parent_id` = '3' AND `status` = '0'";
                                                     $res_artc = mysqli_query($con, $qry_artc);
