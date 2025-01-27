@@ -34,20 +34,17 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
         <div class="row mb-3">            
             <div class="col-md-4">
                 <div class="why-us-heading-box">
-                    <i class="fa fa-clock-o" aria-hidden="true"></i>
                     <span class="text-center">17 years</span>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="why-us-heading-box">
-                    <i class="fa fa-university" aria-hidden="true"></i>
-                    <span class="text-center">Partner financi al institutions</span>
+                    <span class="text-center">70+ Partner Financial Institutions</span>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="why-us-heading-box">
-                    <i class="fa fa-users" aria-hidden="true"></i>
-                    <span class="text-center">5 Lakhs+ officials trained</span>
+                <div class="why-us-heading-box">                    
+                    <span class="text-center">2 Lakhs+ officials trained</span>
                 </div>
             </div>
         </div>
@@ -80,19 +77,31 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                 </div>
                 <p class="pb-3">
                     <span class="htmlEntitiesForParagraph"><strong>&raquo;</strong></span>
-                    Founder and lead trainer, <strong>Prof. Praloy Majumder</strong>, widely known as the <em>"Risk Guru"</em>, brings over 30 years of training experience at India’s most reputable institutions.
+                    Founder and lead trainer, <strong>Prof. Praloy Majumder</strong>, widely known as the <em>"Risk Guru"</em>, brings over <strong>30 years of training experience</strong> at India's most reputable institutions.
                 </p>
                 <p class="pb-3">
                 <span class="htmlEntitiesForParagraph"><strong>&raquo;</strong></span>
-                    Disseminare’s management and advisory team includes industry leaders from prestigious institutions such as IITs, IIMs, and former RBI CGMs, committed to shaping a better future for learners.
+                    Disseminare's <strong>management and advisory team</strong> includes industry leaders from prestigious institutions such as <strong>IITs, IIMs, and former RBI CGMs</strong>, committed to shaping a better future for learners.
                 </p>
                 <p class="pb-3">
                 <span class="htmlEntitiesForParagraph"><strong>&raquo;</strong></span>
-                    For the past 17 years, Disseminare has been the preferred training partner for leading financial institutions across India, Bangladesh, and the Middle East.
+                    For the past 17 years, Disseminare has been the <strong>preferred training partner</strong> for leading financial institutions across <strong>India, Bangladesh, and the Middle East</strong>.
                 </p>
                 <p class="pb-3">
                 <span class="htmlEntitiesForParagraph"><strong>&raquo;</strong></span>
                     Disseminare is the only trusted private institution to be inducted as the training partner at the <strong>Reserve Bank of India</strong> (India's Central Regulatory Institution) and <strong>NABARD</strong> (for their Regional Rural Banks).
+                </p>
+                <p class="pb-3">
+                <span class="htmlEntitiesForParagraph"><strong>&raquo;</strong></span>
+                Disseminare provides flexible learning through <strong>multiple channels: classroom training</strong> with both open and customized sessions, and virtual training options including <strong>VILT</strong> (Virtual Instructor-Led Training) and <strong>self-paced courses and certifications</strong>.
+                </p>
+                <p class="pb-3">
+                <span class="htmlEntitiesForParagraph"><strong>&raquo;</strong></span>
+                Disseminare is also one of the <strong>accredited training institutes</strong> by Indian Institute of Banking & Finance <strong>(IIBF)</strong> for Debt Recovery Agent <strong>(DRA)</strong> training which is mandatory training for collection/recovery officials.
+                </p>
+                <p class="pb-3">
+                <span class="htmlEntitiesForParagraph"><strong>&raquo;</strong></span>
+                It boasts a pool of <strong>70+ trainers</strong> across multiple locations and has the capability to provide training in <strong>vernacular languages</strong>. 
                 </p>
             </div>
         </div>

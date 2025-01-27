@@ -161,7 +161,7 @@ if (isset($_GET['course'])) {
                                 </a>
                             </div> -->
                             <div class="headertop-info-right">
-                                <h5>17+ Years of Global Excellence in BFSI Training & Consulting!!</h5>
+                                <h5>17+ Years of Global Excellence in BFS Training & Consulting!!</h5>
                             </div>
                         </div>
                     </div>
@@ -184,7 +184,7 @@ if (isset($_GET['course'])) {
                                         <i class="fa fa-caret-down" aria-hidden="true"></i>
                                         <ul>
                                             <li><a href="<?php //echo $base_url; ?>why-us">Why Us</a></li>
-                                            <li><a href="<?php //echo $base_url; ?>learning-methodology">Learning Methodology</a></li>
+                                            <!-- <li><a href="<?php //echo $base_url; ?>learning-methodology">Learning Methodology</a></li> -->
                                             <!--  <?php
                                                 $qry_artc = "SELECT * FROM `page` WHERE `parent_id` = '1' AND `status` = '0'";
                                                 $res_artc = mysqli_query($con, $qry_artc);
