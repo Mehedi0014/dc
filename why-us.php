@@ -32,19 +32,19 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
 <section id="why-us-area" class="section-padding">
     <div class="container my-2">
         <div class="row mb-3">            
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4 mb-md-0">
                 <div class="why-us-heading-box">
-                    <span class="text-center">17 years</span>
+                    <span class="text-center">17 Years</span>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4 mb-md-0">
                 <div class="why-us-heading-box">
-                    <span class="text-center">70+ Partner Financial Institutions</span>
+                    <span class="text-center">70+ Partner Institutions</span>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mb-4 mb-md-0">
                 <div class="why-us-heading-box">                    
-                    <span class="text-center">2 Lakhs+ officials trained</span>
+                    <span class="text-center">2 Lakhs+ Officials Trained</span>
                 </div>
             </div>
         </div>
@@ -64,16 +64,29 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                     <h5 class="mb-2">
                         The only training company to have collaborated with a diverse clientele, including:
                     </h5>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><strong>Financial Regulators:</strong> RBI, NABARD</li>
-                        <li class="list-group-item"><strong>Private Banks:</strong> HDFC, ICICI, Kotak, Axis, and more</li>
-                        <li class="list-group-item"><strong>Public Sector Banks:</strong> Bank of Baroda, Canara Bank, and others</li>
-                        <li class="list-group-item"><strong>NBFCs:</strong> Tata Capital, Aditya Birla Capital, etc.</li>
-                        <li class="list-group-item"><strong>Foreign Banks:</strong> HSBC, Bank Muscat, Bank Dhofar among others</li>
-                        <li class="list-group-item"><strong>Small Finance Banks:</strong> Equitas Small Finance Bank, etc.</li>
-                        <li class="list-group-item"><strong>Premier Business Schools:</strong> IIM Calcutta, IIM Udaipur, etc.</li>
-                        <li class="list-group-item"><strong>KPO/Collection Agencies:</strong> CBSL, Startek, and more</li>
-                    </ul>
+
+
+                    <div class="row">
+                        <div class="col-md-6">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><strong>Financial Regulators:</strong> RBI, NABARD</li>
+                            <li class="list-group-item"><strong>Private Banks:</strong> HDFC, ICICI, Kotak, Axis, and more</li>
+                            <li class="list-group-item"><strong>Public Sector Banks:</strong> Bank of Baroda, Canara Bank, and others</li>
+                            <li class="list-group-item"><strong>NBFCs:</strong> Tata Capital, Aditya Birla Capital, etc.</li>
+                            <li class="list-group-item"><strong>Foreign Banks:</strong> HSBC, Bank Muscat, Bank Dhofar among others</li>
+                            <li class="list-group-item"><strong>Small Finance Banks:</strong> Equitas Small Finance Bank, etc.</li>
+                            <li class="list-group-item"><strong>Premier Business Schools:</strong> IIM Calcutta, IIM Udaipur, etc.</li>
+                            <li class="list-group-item"><strong>KPO/Collection Agencies:</strong> CBSL, Startek, and more</li>
+                        </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="<?php echo $base_url; ?>upload/why-us/03.jpg" class="rounded mx-auto d-block" alt="...">
+                        </div>
+                    </div>
+
+
+
+                    
                 </div>
                 <p class="pb-3">
                     <span class="htmlEntitiesForParagraph"><strong>&raquo;</strong></span>

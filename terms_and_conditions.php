@@ -15,7 +15,7 @@ dd3 {
 }
 </style>
 
-<section id="page-header" style="background-image: url(<?php echo $base_url . $document_page_banner . $row_content1['banner_img']; ?>)">
+<section id="page-header" style="background-image: url(<?php echo $base_url; ?>upload/page_banner/terms_and_conditions.jpg)">
     <div class="container">
         <div class="row">
             <!-- Page Title Start -->

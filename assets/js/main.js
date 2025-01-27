@@ -46,7 +46,9 @@
             items: 1,
             loop: true,
             dots: true,
-            autoplay: true
+            autoplay: true,
+            autoplayTimeout: 8000,
+            autoplaySpeed: 2000
         });
 
         // Video Popup JS

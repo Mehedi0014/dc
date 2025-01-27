@@ -33,12 +33,12 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
     <div class="container my-2">
         <div class="row mb-3">
             <div class="col-12 text-center top-text">
-                <h4 class="text-primary font-weight-bold pb-2">Our client consists of Regulators, Academic Institutions/Bodies and Regulated Entities like Banks and NBFCs.</h4>
+                <h4 class="text-primary font-weight-bold pb-2">Our client list consists of Regulators, Academic Institutions/Bodies and Regulated Entities like Banks and NBFCs.</h4>
             </div>
         </div>
         <div class="row mt-3">
             <div class="col-12 text-center">                
-                <h5 class="mb-2">An illustrative list of our clients is given below:</h5>                
+                <h5 class="mb-2">An illustrative (not exhaustive) list of our clients is given below:</h5>                
             </div>
         </div>
 
