@@ -599,6 +599,22 @@ div#preloader {
 #slider-area {
     margin-top: -25px;
 }
+
+
+@media only screen and (max-width: 991px) {
+    .slicknav_nav span.slicknav_arrow {
+        display: none;
+    }
+  }
+
+
+
+
+
+
+
+
+
 /*== Header CSS End ==*/
 
 /*== Slider Area CSS Start ==*/

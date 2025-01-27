@@ -183,7 +183,7 @@ if (isset($_GET['course'])) {
                                         <a href="#">About Us</a>
                                         <i class="fa fa-caret-down" aria-hidden="true"></i>
                                         <ul>
-                                            <li><a href="<?php //echo $base_url; ?>why-us">Why Us</a></li>
+                                            <li><a href="<?php echo $base_url; ?>why-us.php">Why Us</a></li>
                                             <!-- <li><a href="<?php //echo $base_url; ?>learning-methodology">Learning Methodology</a></li> -->
                                             <!--  <?php
                                                 $qry_artc = "SELECT * FROM `page` WHERE `parent_id` = '1' AND `status` = '0'";
