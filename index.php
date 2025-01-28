@@ -1,4 +1,5 @@
-<?php include_once 'common/header.php'; ?>
+<?php
+include_once 'common/header.php'; ?>
 
 <style>
     #blink {
@@ -8,6 +9,26 @@
         transition: 1s;
     }
 </style>
+
+
+<!--== Display message after sending message Start ==-->
+<?php
+if (isset($_SESSION['message'])) {
+    echo '<div class="alert alert-' . $_SESSION['msg_type'] . ' alert-dismissible fade show" role="alert">';
+    echo $_SESSION['message'];
+    echo '<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>';
+    echo '</div>';
+    unset($_SESSION['message']);
+    unset($_SESSION['msg_type']);
+}
+?>
+<!--== Display message after sending message End ==-->
+
+
+
+
 
 <!--== Slider Area Start ==-->
 <!-- <section id="slider-area-backup">
@@ -408,7 +429,7 @@
             <div class="col-lg-7">
                 <div class="request-message-form">
                     <h2>Drop Your Message</h2>
-                    <form method="post" action="">
+                    <form method="post" action="php_mailer_setup.php">
                     <?php /*<form method="post" action="<?php echo $base_url; ?>homepage_mail.php"> */ ?>
                         <div class="single-input">
                             <div class="row">
@@ -441,12 +462,12 @@
                         <div class="single-input">
                             <textarea name="message" id="message" cols="30" rows="5" required></textarea>
                         </div>
-                        <div class="single-input">
+                        <!-- <div class="single-input">
                             <div class="g-recaptcha" data-sitekey="6LexbeAZAAAAAHiATrG1buOrmL3srgZbkp0XIjuD"></div>
-                        </div>
+                        </div> -->
 
                         <div class="single-input">
-                            <button class="theme-btn" type="submit"> <i class="fa fa-send"></i> Send Message</button>
+                            <button class="theme-btn" type="submit" name="submitHomePage"> <i class="fa fa-send"></i> Send Message</button>
                         </div>
                     </form>
                     <?php
