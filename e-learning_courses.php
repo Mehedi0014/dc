@@ -480,23 +480,25 @@ new design of course card
           <h3 class="course-title-heading">
             <a class="not-a"><?=$result_course['name'];?></a>
             <!--&nbsp;-->
-          </h3>
-          
+          </h3>          
         </div>
-        <div class="course-fav-cost row">
-          <div class="course-rating-star">
-            <small></small>
-            <br>
-            <div class="course-rating">
+
+
+        <!-- <div class="course-fav-cost row"> -->
+          <!-- <div class="course-rating-star"> -->
+            <!-- <small></small> -->
+            <!-- <br> -->
+            <!-- <div class="course-rating"> -->
               <!--<span><span> ☆</span><span class="active"> ☆</span><span> ☆</span><span> ☆</span><span> ☆</span></span>-->
-            </div>
-          </div>
-          <div class="course-fav-price text-right">
-            <!--<small>Price(&#8377)</small>-->
+            <!-- </div> -->
+          <!-- </div> -->
+          <!-- <div class="course-fav-price text-right">
             <small>Price(INR)</small>
             <div class="price"><?=$result_course['price'];?></div>
-          </div>
-        </div>
+          </div> -->
+        <!-- </div> -->
+
+
         <div class="course-card-foot">
           <!--<img align="left" class="not-img course-card-foot-img" src="http://www.personalbrandingblog.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640-300x300.png">-->
           <div class="course-card-foot-name main-name">

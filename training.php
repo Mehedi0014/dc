@@ -96,10 +96,14 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                                             echo html_entity_decode($row_training['description']);
                                             ?>
                                             <br>
-                                            <a class="theme-btn" data-toggle="modal" href="#inquiry_<?php echo $row_training['id'] ?>">Know More</a>
 
+                                            <a class="theme-btn" href="<?php echo $base_url;?>contact-us.php">Know More</a>
+
+                                            
+                                            <!-- <a class="theme-btn" data-toggle="modal" href="#inquiry_<?php echo $row_training['id'] ?>">Know More</a> -->
+                                            
                                             <!--------START MODAL FOR ADD BANK FORM-------->
-                                            <div class="modal fade" id="inquiry_<?php echo $row_training['id'] ?>" tabindex="-1" role="basic" aria-hidden="true">
+                                            <!-- <div class="modal fade" id="inquiry_<?php echo $row_training['id'] ?>" tabindex="-1" role="basic" aria-hidden="true">
                                                 <div class="modal-dialog">
                                                     <div class="modal-content">
                                                         <div class="modal-header">
@@ -107,6 +111,7 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                                                             <h4 class="modal-title"><?php echo $row_training['name'] ?></h4>
                                                         </div>
                                                         <form method="post" action="<?php echo $base_url; ?>training_inquiry.php" enctype="multipart/form-data">
+                                                        <form method="post" action="<?php echo $base_url; ?>php_mailer_setup.php">
                                                             <div class="modal-body"> 
 
                                                                 <table class="table">
@@ -132,14 +137,15 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                                                             </div>
                                                             <div class="modal-footer">
                                                                 <button type="button" class="btn dark btn-outline" data-dismiss="modal">Close</button>
-                                                                <button type="submit" class="btn green" name="Submit">Submit</button>
+                                                                <button type="submit" class="btn green" name="submitClassroomTrainingPage">Submit</button>
                                                             </div>
                                                         </form>
-                                                    </div>
-                                                    <!-- /.modal-content -->
-                                                </div>
-                                                <!-- /.modal-dialog -->
-                                            </div>
+                                                    </div>                                                    
+                                                </div>                                                
+                                            </div> -->
+
+
+
 
                                         </div>
                                     </div>

@@ -88,7 +88,7 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                     <div class="about-text-area">
                         <h2><?=$result_course['name'];?></h2>
                         
-                        <h5>Price(INR) <?=$result_course['price'];?></h5>
+                        <!-- <h5>Price(INR) <?=$result_course['price'];?></h5> -->
                         <p><br></p>
                             <a href="#">
                               <img class="not-img img-res" src="<?=$result_course['image'];?>">
@@ -113,13 +113,15 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                     <p><br></p>
                     </div>
                     
-                    <a href="<?php
-                        if($result_course['id'] === "942"){
+                    <!-- <a href="<?php
+                        /* if($result_course['id'] === "942"){
                             echo "https://youtube.com/playlist?list=PLt1cMpqMskmL42Vd4vFsxG_VQW-ngpLCG";
                         }else{
                             echo $base_url."buy_course.php";
-                        }
-                    ?>" class="button button2">To get the course click here</a><br/>
+                        } */
+                    ?>" class="button button2">To get the course click here</a> -->
+                    
+                    <br/>
                      <!--<a href="https://youtube.com/playlist?list=PLt1cMpqMskmL42Vd4vFsxG_VQW-ngpLCG" class="button button2">To get the course click here</a><br/>-->
                 <!-- About Text Area v-popup -->
             </div>

@@ -53,7 +53,7 @@ include_once 'common/header.php'; ?>
             <div class="row h-100">                    
                 <div class="col-lg-6 m-auto text-center">
                     <div class="slider-slide-text">
-                        <h3>Welcoming Dr. Rabi Narayan Mishra - <br /> As Our Distinguished Advisor</h3>
+                        <h3>Welcoming <br/> Dr. Rabi Narayan Mishra <br /> As Our Distinguished Advisor</h3>
 
                         <p>We are honored to welcome Dr. Rabi Narayan Mishra, former Executive Director (Supervision & SupTech) and Founding Director of the College of Supervisors, RBI, as our Distinguished Advisor.</p>
                         <p>Fondly known as the 'Resilience Guru,' Dr. Mishra brings decades of expertise in the space of  governance, risk management, Compliance and Leadership Styles.</p>
@@ -63,7 +63,7 @@ include_once 'common/header.php'; ?>
 
                         <p>Strategic Programs for C-Suite Professionals</p>
                         <p>Upskilling for Officials</p>
-                        <a class="btn btn-primary">Coming Soon</a>
+                        <!-- <a class="btn btn-primary">Coming Soon</a> -->
                     </div>
                 </div>
                 <div class="col-lg-6"></div>                  
@@ -93,7 +93,9 @@ include_once 'common/header.php'; ?>
                         <h3>Strategic Programs for C-Suite Professionals</h3>
 
                         <p>Empowering Boards of Directors, CROs, CCOs, and CAOs (and their teams) to navigate new-age risks, regulatory complexities, and the evolving banking and lending landscape. Our programs guide leadership teams toward building “Distress-Free” and “Future-Ready” organizations.</p>
-                        <a class="btn btn-primary">Coming Soon</a>
+
+                        <h5 class="commingSoonOffered">Sessions Offered (Coming Soon):</h5>
+                        <!-- <a class="btn btn-primary">Coming Soon</a> -->
                     </div>
                 </div>
                 <div class="col-lg-6"></div>                  
@@ -108,7 +110,9 @@ include_once 'common/header.php'; ?>
                         <h3>Job-Ready Programs for Entry-Level Professionals (Interview Assured)</h3>
 
                         <p>A comprehensive program designed for beginners aspiring to work in banks and financial institutions. Gain all the essential skills required by the industry, with interviews arranged with leading financial institutions upon program completion.</p>
-                        <a class="btn btn-primary">Coming Soon</a>
+                        <!-- <a class="btn btn-primary">Coming Soon</a> -->
+
+                        <h5 class="commingSoonOffered">Sessions Offered (Coming Soon):</h5>
                     </div>
                 </div>
                 <div class="col-lg-6"></div>                  
@@ -123,7 +127,7 @@ include_once 'common/header.php'; ?>
                         <h3>Leading Debt Recovery Agent (DRA) Training Partner</h3>
 
                         <p>Indian Institute of Banking & Finance (IIBF) Accredited Debt Recovery Agent (DRA) training institute in Kolkata.</p>
-                        <a class="btn btn-primary">Coming Soon</a>
+                        <a class="btn btn-primary" href="<?php $base_url;?>contact-us.php">Contact Us</a>
                     </div>
                 </div>
                 <div class="col-lg-6"></div>                  
@@ -135,12 +139,14 @@ include_once 'common/header.php'; ?>
 
 
 
-<div class="popular_program_area">
+<!-- <div class="popular_program_area">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="section_title text-center">
-                    <p><br></p>
+                    <p><br></p> -->
+
+
                     
                     <!-- <a href="https://youtube.com/playlist?list=PLt1cMpqMskmL42Vd4vFsxG_VQW-ngpLCG" id="blink"> Click here for training on Finance for Non Finance folks!</a>
                     <script type="text/javascript">
@@ -149,18 +155,22 @@ include_once 'common/header.php'; ?>
                             blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
                         }, 1500);
                     </script> -->
+
+
                     
-                    <marquee  id="blink" scrollamount="12" direction="right">
+                    <!-- <marquee  id="blink" scrollamount="12" direction="right">
                         <a href="<?=$base_url?>course_details.php?crs=942<?=$result_course['id']?>">
                         Click here for training on Finance for Non Finance folks!
                         </a>
                     </marquee>
-                    <p><br></p>
-                </div>
+                    <p><br></p> -->
+
+
+                <!--  </div>
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 

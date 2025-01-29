@@ -34,7 +34,7 @@
 
                 <!-- Single Widget Start -->
                 <div class="col-lg-4 col-sm-12">
-                    <div class="single-widget">
+                    <!-- <div class="single-widget">
                         <div class="widget-title">
                             <h4>useful Links</h4>
                         </div>
@@ -42,25 +42,25 @@
                             <ul class="footer-list">
                                 <li><a href="<?php echo $base_url; ?>">Home</a></li>
                                 <li><a href="<?php echo $base_url; ?>why-us">About Us</a></li>
-                                <!-- <li><a href="<?php echo $base_url; ?>service/training">Services</a></li> -->
+                                <li><a href="<?php echo $base_url; ?>service/training">Services</a></li>
                                 <li><a href="<?php echo $base_url; ?>latest-banking.php"> Knowledge Center</a></li>
                                 <li><a href="<?php echo $base_url; ?>training.php">Training</a></li>
                                 <li><a href="<?php echo $base_url; ?>contact-us.php">Contact Us</a></li>
-                                <!--<li><a href="<?php echo $base_url; ?>course_terms.php">Terms</a></li>-->
-                                <!-- <li><a href="<?php echo $base_url; ?>all_courses.php">Upcoming Workshops</a></li> -->
+                                <li><a href="<?php echo $base_url; ?>course_terms.php">Terms</a></li>
+                                <li><a href="<?php echo $base_url; ?>all_courses.php">Upcoming Workshops</a></li>
                                 <li><a href="<?php echo $base_url; ?>terms_and_conditions.php">Terms and Conditions</a></li>
                                 <li><a href="<?php echo $base_url; ?>privacy_statement.php">Privacy Statement</a></li>
                                 <li><a href="<?php echo $base_url; ?>refund-policy.php">Refund Policy</a></li>
                                 <li><a href="<?php echo $base_url; ?>cancellation-policy.php">Cancellation Policy</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <!-- Single Widget End -->
 
                 <!-- Single Widget Start -->
                 <div class="col-lg-4 col-sm-12">
-                    <div class="single-widget">
+                    <!-- <div class="single-widget">
                         <div class="widget-title">
                             <h4>Register</h4>
                         </div>
@@ -80,7 +80,7 @@
                                 ?>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <!-- Single Widget End -->
 

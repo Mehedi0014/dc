@@ -223,11 +223,11 @@ if (isset($_GET['course'])) {
                                             <li><a href="<?php //echo $base_url; ?>service/vulnerability">Vulnerability Assessment</a></li>
                                         </ul>
                                     </li> -->
-                                    <li>
-                                        <a href="#">Knowledge Center</a>
-                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
-                                        <ul>
-                                            <li><a href="<?php echo $base_url; ?>latest-banking.php">Latest@ Banking</a></li>
+                                    <!-- <li> -->
+                                        <!-- <a href="#">Knowledge Center</a>
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i> -->
+                                        <!-- <ul> -->
+                                            <!-- <li><a href="<?php echo $base_url; ?>latest-banking.php">Latest@ Banking</a></li> -->
                                             <!--<li><a href="<?php echo $base_url; ?>page/reading-material">Reading Material</a>-->
                                             <!--<li><a href="<?php echo $base_url; ?>retail-banking.php">Retail Banking</a></li>-->
                                             <!--<li><a href="<?php echo $base_url; ?>non-fund-based-working-capital.php">Non Fund Based Working Capital</a></li>-->
@@ -239,9 +239,9 @@ if (isset($_GET['course'])) {
                                                 </li>-->
                                         
                                             
-                                            <li><a href="<?php echo $base_url; ?>blog.php">Blogs</a></li>
+                                            <!-- <li><a href="<?php echo $base_url; ?>blog.php">Blogs</a></li> -->
                                             <?php
-                                            $qry_artc = "SELECT * FROM `page` WHERE `parent_id` = '2' AND `status` = '0'";
+                                            /* $qry_artc = "SELECT * FROM `page` WHERE `parent_id` = '2' AND `status` = '0'";
                                             $res_artc = mysqli_query($con, $qry_artc);
                                             
                                             while($row_artc = mysqli_fetch_assoc($res_artc)) 
@@ -249,16 +249,16 @@ if (isset($_GET['course'])) {
                                             ?>
                                             <li><a href="<?php echo $base_url; ?>page/<?php echo $row_artc['alias'];?>"><?php echo $row_artc['title'];?></a></li>
                                             <?php
-                                            }
+                                            } */
                                             ?>
-                                        </ul>
-                                    </li>
+                                        <!-- </ul> -->
+                                    <!-- </li> -->
                                     <li>
                                         <a href="#">Explore Products</a>
                                         <i class="fa fa-caret-down" aria-hidden="true"></i>
                                         <ul>
                                             <li><a href="<?php echo $base_url; ?>training.php">Classroom Training</a></li>
-                                            <li><a href="<?php echo $base_url; ?>e-learning_courses.php">Virtual training</a></li>
+                                            <li><a href="<?php echo $base_url; ?>e-learning_courses.php">E-learning</a></li>
                                             <?php
                                                     $qry_artc = "SELECT * FROM `page` WHERE `parent_id` = '3' AND `status` = '0'";
                                                     $res_artc = mysqli_query($con, $qry_artc);
@@ -281,7 +281,7 @@ if (isset($_GET['course'])) {
                                             
                                         </ul>
                                     </li>-->
-                                    <li><a href="<?php echo $base_url; ?>career.php">Career</a></li>
+                                    <!-- <li><a href="<?php echo $base_url; ?>career.php">Career</a></li> -->
                                     <!--<li><a href="#">Calender</a>
                                         <ul>
                                             <li><a href="<?php echo $base_url; ?>gallery.php">Gallery</a></li>
@@ -290,7 +290,7 @@ if (isset($_GET['course'])) {
                                             <li><a href="<?php echo $base_url; ?>all_courses.php">Upcoming Assignments</a></li>
                                         </ul>
                                     </li>-->
-                                    <li><a href="<?php echo $base_url; ?>certification.php">Certification</a></li>
+                                    <!-- <li><a href="<?php echo $base_url; ?>certification.php">Certification</a></li> -->
                                     <li><a href="<?php echo $base_url; ?>contact-us.php">Contact Us</a></li>
                                 </ul>
                             </nav>
