@@ -11,24 +11,6 @@ include_once 'common/header.php'; ?>
 </style>
 
 
-<!--== Display message after sending message Start ==-->
-<?php
-if (isset($_SESSION['message'])) {
-    echo '<div class="alert alert-' . $_SESSION['msg_type'] . ' alert-dismissible fade show" role="alert">';
-    echo $_SESSION['message'];
-    echo '<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>';
-    echo '</div>';
-    unset($_SESSION['message']);
-    unset($_SESSION['msg_type']);
-}
-?>
-<!--== Display message after sending message End ==-->
-
-
-
-
 
 <!--== Slider Area Start ==-->
 <!-- <section id="slider-area-backup">
@@ -429,7 +411,7 @@ if (isset($_SESSION['message'])) {
             <div class="col-lg-7">
                 <div class="request-message-form">
                     <h2>Drop Your Message</h2>
-                    <form method="post" action="php_mailer_setup.php">
+                    <form method="post" action="<?php echo $base_url; ?>php_mailer_setup.php">
                     <?php /*<form method="post" action="<?php echo $base_url; ?>homepage_mail.php"> */ ?>
                         <div class="single-input">
                             <div class="row">
@@ -471,13 +453,13 @@ if (isset($_SESSION['message'])) {
                         </div>
                     </form>
                     <?php
-                    if (isset($_SESSION['mail_succ'])) {
-                        echo '<p style="color: green;">' . $_SESSION['mail_succ'] . '</p>';
-                        unset($_SESSION['mail_succ']);
+                    if (isset($_SESSION['message_success'])) {
+                        echo '<p style="color: green; background: #fff; padding: 7px 10px; margin-top: 20px; font-weight: bold;">' . $_SESSION['message_success'] . '</p>';
+                        unset($_SESSION['message_success']);
                     }
-                    if (isset($_SESSION['mail_fail'])) {
-                        echo '<p style="color: red;">' . $_SESSION['mail_fail'] . '</p>';
-                        unset($_SESSION['mail_fail']);
+                    if (isset($_SESSION['message_failed'])) {
+                        echo '<p style="color: red; background: #fff; padding: 7px 10px; margin-top: 20px; font-weight: bold;">' . $_SESSION['message_failed'] . '</p>';
+                        unset($_SESSION['message_failed']);
                     }
                     ?>
                 </div>

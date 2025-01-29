@@ -79,19 +79,19 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                 }
                 $optionshtml .= '<option value="' .$row['id'] . '">' .$row['title']. '</option>';
                 $accord_html .= '<div class="panel panel-default">
-      <div class="panel-heading" role="tab" id="heading'. $level. '">
-        <h4 class="panel-title">
-        <a '. (is_null($addClass) ? ' ' : $addClass) . ' role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse'.$level .'" aria-expanded="true" aria-controls="collapse'. $level .'">'.
-         $row['title']. 
-        '</a>
-      </h4>
-      </div>
-      <div id="collapse'. $level . '" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading'.$level. '">
-        <div class="panel-body">'.html_entity_decode($row['description']).
-          
-        '</div>
-      </div>
-    </div>'; 
+                                    <div class="panel-heading" role="tab" id="heading'. $level. '">
+                                        <h4 class="panel-title">
+                                            <a '. (is_null($addClass) ? ' ' : $addClass) . ' role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse'.$level .'" aria-expanded="true" aria-controls="collapse'. $level .'">'.
+                                                $row['title']. 
+                                            '</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapse'. $level . '" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading'.$level. '">
+                                    <div class="panel-body">'.html_entity_decode($row['description']).
+                                        
+                                    '</div>
+                                    </div>
+                                </div>'; 
                 $i++;
             }
             $optionshtml .= '</select>';
@@ -125,7 +125,8 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
             <div class="col-lg-10 m-auto">
                 <div class="contact-form-contant">
                     <h3>Drop Your Resume Here</h3>
-                    <form method="post" action="<?php echo $base_url; ?>db_cvapply.php" enctype="multipart/form-data">
+                    <!-- <form method="post" action="<?php echo $base_url; ?>db_cvapply.php" enctype="multipart/form-data"> -->
+                    <form method="post" action="<?php echo $base_url; ?>php_mailer_setup.php" enctype="multipart/form-data">
                         <div class="row">
                             <!-- Name Input Start -->
                             <div class="col-lg-6 col-md-6">
@@ -186,26 +187,35 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                                     <input type="file" name="file" id="file" required>
                                 </div>
                             </div>
-                            <div class="col-lg-12 col-md-12 d-flex justify-content-center" style="margin-bottom: 20px;">
+                            <!-- <div class="col-lg-12 col-md-12 d-flex justify-content-center" style="margin-bottom: 20px;">
                                 <div class="g-recaptcha" data-sitekey="6LexbeAZAAAAAHiATrG1buOrmL3srgZbkp0XIjuD"></div>
-                            </div>
+                            </div> -->
                             
 
                             <!-- Submit Input Start -->
                             <div class="col-lg-12 text-center">
                                 <div id="success">
                                     <?php
-                                    if (isset($_SESSION['mail_succ'])) {
+                                    /* if (isset($_SESSION['mail_succ'])) {
                                         echo '<p style="color: green;">' . $_SESSION['mail_succ'] . '</p>';
                                         unset($_SESSION['mail_succ']);
                                     }
                                     if (isset($_SESSION['mail_fail'])) {
                                         echo '<p style="color: red;">' . $_SESSION['mail_fail'] . '</p>';
                                         unset($_SESSION['mail_fail']);
+                                    } */
+
+                                    if (isset($_SESSION['message_success'])) {
+                                        echo '<p style="color: green; background: #fff; padding: 7px 10px; margin-top: 20px; font-weight: bold;">' . $_SESSION['message_success'] . '</p>';
+                                        unset($_SESSION['message_success']);
+                                    }
+                                    if (isset($_SESSION['message_failed'])) {
+                                        echo '<p style="color: red; background: #fff; padding: 7px 10px; margin-top: 20px; font-weight: bold;">' . $_SESSION['message_failed'] . '</p>';
+                                        unset($_SESSION['message_failed']);
                                     }
                                     ?>
                                 </div>
-                                <button id="sendMessageButton" class="theme-btn" type="submit">Send Now <i class="fa fa-send-o"></i></button>
+                                <button id="sendMessageButton" class="theme-btn" type="submit" name="submitCareerPage">Send Now <i class="fa fa-send-o"></i></button>
                             </div>
                             <!-- Submit Input End -->
                         </div>
