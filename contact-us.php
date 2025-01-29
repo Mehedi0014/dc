@@ -103,8 +103,8 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
             <div class="col-lg-10 m-auto">
                 <div class="contact-form-contant">
                     <h3>Contact Us</h3>
-                    <form method="post" action="">
                     <?php /*<form method="post" action="<?php echo $base_url; ?>contactpage_mail.php">*/ ?>
+                    <form method="post" action="<?php echo $base_url; ?>php_mailer_setup.php">
                         <div class="row">
                             <!-- Name Input Start -->
                             <div class="col-lg-6 col-md-6">
@@ -125,7 +125,7 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                             <!-- Subject Input Start -->
                             <div class="col-lg-6  col-md-6">
                                 <div class="form-group">
-                                    <input class="form-control" id="subject" name="mobile" type="text" placeholder="Phone *" required>
+                                    <input class="form-control" id="mobile" name="mobile" type="text" placeholder="Phone *" required>
                                 </div>
                             </div>
                             <!-- Subject Input End -->
@@ -144,29 +144,32 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                                     <textarea rows="7" class="form-control" name="message" id="message" placeholder="Your Message *" required></textarea>
                                 </div>
                             </div>
-                            
-                            <!-- Message Input End -->
-                            <!--                            <div class="col-lg-6  col-md-6">
-                            
-                                                            <div class="g-recaptcha" data-sitekey="6LfrxnYUAAAAAJc9LH4Vfig5OVAeIavBSie6p-52"></div>
-                            
-                                                        </div>-->
 
                             <!-- Submit Input Start -->
                             <div class="col-lg-12 text-center">
                                 <div id="success">
                                     <?php
-                                    if (isset($_SESSION['mail_succ'])) {
+                                    /* if (isset($_SESSION['mail_succ'])) {
                                         echo '<p style="color: green;">' . $_SESSION['mail_succ'] . '</p>';
                                         unset($_SESSION['mail_succ']);
                                     }
                                     if (isset($_SESSION['mail_fail'])) {
                                         echo '<p style="color: red;">' . $_SESSION['mail_fail'] . '</p>';
                                         unset($_SESSION['mail_fail']);
+                                    } */
+
+                                    if (isset($_SESSION['message_success'])) {
+                                        echo '<p style="color: green; background: #fff; padding: 7px 10px; margin-top: 20px; font-weight: bold;">' . $_SESSION['message_success'] . '</p>';
+                                        unset($_SESSION['message_success']);
+                                    }
+                                    if (isset($_SESSION['message_failed'])) {
+                                        echo '<p style="color: red; background: #fff; padding: 7px 10px; margin-top: 20px; font-weight: bold;">' . $_SESSION['message_failed'] . '</p>';
+                                        unset($_SESSION['message_failed']);
                                     }
                                     ?>
                                 </div>
-                                <button id="sendMessageButton" class="theme-btn" type="submit">Send Now <i class="fa fa-send-o"></i></button>
+                                <button id="sendMessageButton" class="theme-btn" type="submit" name="submitContactUsPage">Send Now <i class="fa fa-send-o"></i></button>
+                                
                                 <div class="footer-icons">
                             <h6>Follow us-</h6>
                             <a target="_blank" rel="nofollow" href="https://www.facebook.com/Disseminare-Consulting-127941044618492/"><i class="fa fa-facebook"></i></a>
