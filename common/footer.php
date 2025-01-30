@@ -11,10 +11,10 @@
         <div class="container">
             <div class="row">
                 <!-- Single Widget Start -->
-                <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-12 col-sm-12">
                     <div class="single-widget">
                         <img src="<?php echo $base_url . $document_path_site_logo . $row_setting['footer_logo']; ?>" alt="">
-                        <p style="text-align: justify;">Disseminare Consulting is a cutting edge knowledge based company that is focused on enabling companies to get more out of their teams through a process of ongoing training.</p>
+                        <p style="text-align: justify;">Disseminare Consulting is a cutting edge knowledge based company that is focused on enabling organizations to get more out of their teams through a process of ongoing training.</p>
                         <div class="newsletter-from">
                             <!--<form action="index.html">
                                 <input type="email" placeholder="Subscribe Newsletter">
@@ -33,7 +33,7 @@
                 <!-- Single Widget End -->
 
                 <!-- Single Widget Start -->
-                <div class="col-lg-4 col-sm-12">
+                <!-- <div class="col-lg-4 col-sm-12"> -->
                     <!-- <div class="single-widget">
                         <div class="widget-title">
                             <h4>useful Links</h4>
@@ -55,11 +55,11 @@
                             </ul>
                         </div>
                     </div> -->
-                </div>
+                <!-- </div> -->
                 <!-- Single Widget End -->
 
                 <!-- Single Widget Start -->
-                <div class="col-lg-4 col-sm-12">
+                <!-- <div class="col-lg-4 col-sm-12"> -->
                     <!-- <div class="single-widget">
                         <div class="widget-title">
                             <h4>Register</h4>
@@ -81,7 +81,7 @@
                             </ul>
                         </div>
                     </div> -->
-                </div>
+                <!-- </div> -->
                 <!-- Single Widget End -->
 
                 <!-- Single Widget Start -->

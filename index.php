@@ -53,7 +53,7 @@ include_once 'common/header.php'; ?>
             <div class="row h-100">                    
                 <div class="col-lg-6 m-auto text-center">
                     <div class="slider-slide-text">
-                        <h3>Welcoming <br/> Dr. Rabi Narayan Mishra <br /> As Our Distinguished Advisor</h3>
+                        <h3>Welcoming <br/> <span class="sliderHighlightText">Dr. Rabi Narayan Mishra</span> <br /> As Our Distinguished Advisor</h3>
 
                         <p>We are honored to welcome Dr. Rabi Narayan Mishra, former Executive Director (Supervision & SupTech) and Founding Director of the College of Supervisors, RBI, as our Distinguished Advisor.</p>
                         <p>Fondly known as the 'Resilience Guru,' Dr. Mishra brings decades of expertise in the space of  governance, risk management, Compliance and Leadership Styles.</p>
@@ -75,7 +75,7 @@ include_once 'common/header.php'; ?>
             <div class="row h-100">                    
                 <div class="col-lg-6 m-auto text-center">
                     <div class="slider-slide-text">
-                        <h3>Programs for Experienced Banking Professionals in Credit and Risk management</h3>
+                        <h3>Programs for Experienced Banking Professionals in <span class="sliderHighlightText">Credit and Risk management</span></h3>
 
                         <p>Our flagship course is tailored for banking executives and finance professionals aiming to excel in credit or risk roles within the SME and Corporate Banking Credit segment. Trusted by leading financial institutions in India and abroad, this program sets the benchmark for career advancement.</p>
                         <a href="<?php echo $base_url; ?>training.php" class="btn btn-primary">Explore</a>
@@ -90,11 +90,11 @@ include_once 'common/header.php'; ?>
             <div class="row h-100">                    
                 <div class="col-lg-6 m-auto text-center">
                     <div class="slider-slide-text">
-                        <h3>Strategic Programs for C-Suite Professionals</h3>
+                        <h3>Strategic Programs for <span class="sliderHighlightText">C-Suite Professionals</span></h3>
 
                         <p>Empowering Boards of Directors, CROs, CCOs, and CAOs (and their teams) to navigate new-age risks, regulatory complexities, and the evolving banking and lending landscape. Our programs guide leadership teams toward building “Distress-Free” and “Future-Ready” organizations.</p>
 
-                        <h5 class="commingSoonOffered">Sessions Offered (Coming Soon):</h5>
+                        <h5 class="commingSoonOffered">Coming Soon</h5>
                         <!-- <a class="btn btn-primary">Coming Soon</a> -->
                     </div>
                 </div>
@@ -107,12 +107,12 @@ include_once 'common/header.php'; ?>
             <div class="row h-100">                    
                 <div class="col-lg-6 m-auto text-center">
                     <div class="slider-slide-text">
-                        <h3>Job-Ready Programs for Entry-Level Professionals (Interview Assured)</h3>
+                        <h3>Job-Ready Programs for <span class="sliderHighlightText">Entry-Level Professionals</span> (Interview Assured)</h3>
 
                         <p>A comprehensive program designed for beginners aspiring to work in banks and financial institutions. Gain all the essential skills required by the industry, with interviews arranged with leading financial institutions upon program completion.</p>
                         <!-- <a class="btn btn-primary">Coming Soon</a> -->
 
-                        <h5 class="commingSoonOffered">Sessions Offered (Coming Soon):</h5>
+                        <h5 class="commingSoonOffered">Coming Soon</h5>
                     </div>
                 </div>
                 <div class="col-lg-6"></div>                  
@@ -124,7 +124,7 @@ include_once 'common/header.php'; ?>
             <div class="row h-100">                    
                 <div class="col-lg-6 m-auto text-center">
                     <div class="slider-slide-text">
-                        <h3>Leading Debt Recovery Agent (DRA) Training Partner</h3>
+                        <h3>Leading <span class="sliderHighlightText">Debt Recovery Agent</span> (DRA) Training Partner</h3>
 
                         <p>Indian Institute of Banking & Finance (IIBF) Accredited Debt Recovery Agent (DRA) training institute in Kolkata.</p>
                         <a class="btn btn-primary" href="<?php $base_url;?>contact-us.php">Contact Us</a>
@@ -407,10 +407,10 @@ include_once 'common/header.php'; ?>
                     <div class="display-table-cell">
                         <div class="call-back-text">
                             <h2>Request A <span>Call</span> Back.</h2>
-                            <p>Business is a marketing discipline focused on growing visibility in organic search engine results.encompasses both the technical and creative elements required to improve rankings, drive traffic, and increase awareness in search engines</p>
+                            <!-- <p>Business is a marketing discipline focused on growing visibility in organic search engine results.encompasses both the technical and creative elements required to improve rankings, drive traffic, and increase awareness in search engines</p> -->
 
                             <p class="call-us"><b>Call Us</b> for immediate support at this number</p>
-                            <h3>+919831195208</h3>
+                            <h3>+91 9820301067</h3>
                         </div>
                     </div>
                 </div>

@@ -387,7 +387,7 @@ div#preloader {
 
 .mainmenu li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 30px;
     position: relative;
 }
 
@@ -741,8 +741,9 @@ div#preloader {
     width: 60%;
 }
 
-
-
+#slider-area span.sliderHighlightText {
+    color: #c7a54e;
+}
 
 
 
@@ -1790,8 +1791,13 @@ div#preloader {
 }
 
 #fotter-widget {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
+
+#footer-area > #fotter-widget.section-padding {
+    padding: 40px 0;
+}
+
 #fotter-widget,
 #fotter-widget a {
     color: #fff;
