@@ -46,8 +46,7 @@
             items: 1,
             loop: true,
             dots: true,
-            autoplay: false,
-            // autoplay: true,
+            autoplay: true,
             autoplayTimeout: 8000,
             autoplaySpeed: 2000
         });

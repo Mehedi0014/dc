@@ -575,7 +575,7 @@ new design of course card
 
 
 
-          <a href="<?=$base_url?>buy_course.php" class="button button2">To get the courses click here</a><br/>
+          <!-- <a href="<?=$base_url?>buy_course.php" class="button button2">To get the courses click here</a><br/> -->
   </body>
   
   
