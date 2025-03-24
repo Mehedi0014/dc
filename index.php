@@ -58,12 +58,26 @@ include_once 'common/header.php'; ?>
                         <p>We are honored to welcome Dr. Rabi Narayan Mishra, former Executive Director (Supervision & SupTech) and Founding Director of the College of Supervisors, RBI, as our Distinguished Advisor.</p>
                         <p>Fondly known as the 'Resilience Guru,' Dr. Mishra brings decades of expertise in the space of  governance, risk management, Compliance and Leadership Styles.</p>
 
-                        
-                        <h5 class="commingSoonOffered">Sessions Offered (Coming Soon):</h5>
-
-                        <p>Strategic Programs for C-Suite Professionals</p>
-                        <p>Upskilling for Officials</p>
-                        <!-- <a class="btn btn-primary">Coming Soon</a> -->
+                        <a href="<?php echo $base_url; ?>edp.php" class="btn btn-primary">Explore</a>
+                        <br>
+                        <h5 class="commingSoonOffered">Efficiency Development Programmes for:</h5>
+                        <div class="row mt-4">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>GM-CGM</li>
+                                    <li>CM-AGM-DGM</li>
+                                    <li>Scale I to III Officers</li>
+                                    <li>Fresh-Recruited Officers</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Members of Faculty</li>
+                                    <li>State Heads of the Institution</li>
+                                    <li>Branch Heads in a State</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6"></div>                  

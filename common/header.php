@@ -259,6 +259,7 @@ if (isset($_GET['course'])) {
                                         <ul>
                                             <li><a href="<?php echo $base_url; ?>training.php">Classroom Training</a></li>
                                             <li><a href="<?php echo $base_url; ?>e-learning_courses.php">E-learning</a></li>
+                                            <li><a href="<?php echo $base_url; ?>edp.php">Efficiency Development Programmes</a></li>
                                             <?php
                                                     $qry_artc = "SELECT * FROM `page` WHERE `parent_id` = '3' AND `status` = '0'";
                                                     $res_artc = mysqli_query($con, $qry_artc);
