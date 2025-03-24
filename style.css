@@ -4228,3 +4228,108 @@ span.htmlEntitiesForParagraph {
     transform: translateX(-50%);
     width: 100%;
 }
+
+/* ================================================================
+    Efficiency Development Programmes -> EDP page
+================================================================ */
+
+#efficiency-development-programmes-area .double-line-under-text {
+    position: relative;
+    margin-bottom: 30px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    padding-bottom: 10px;
+}
+#efficiency-development-programmes-area .double-line-under-text::before {
+    background-color: #46c3e8;
+    bottom: -6px;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 50px;
+}
+#efficiency-development-programmes-area .double-line-under-text::after {
+    background-color: #0f1341;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 80px;
+}
+
+#efficiency-development-programmes-area .edp-heading-box {
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0071bc;
+    flex-direction: column;
+    padding: 25px 5px 25px 5px !important;
+    border-radius: 12px;
+    box-shadow: 7px 8px 4px rgba(0,0,0,.3);
+    height: 100%;
+}
+
+#efficiency-development-programmes-area .heading-with-section-link a {
+    color: #fff;
+    margin-bottom: 15px;
+    display: block;
+    font-weight: bold;
+}
+#efficiency-development-programmes-area .heading-with-section-link li {
+    background-color: #46c3e8;
+    padding: 15px 5px;
+    text-align: center;
+}
+#efficiency-development-programmes-area .heading-with-section-link li:hover {
+    background: #199fc7;
+}
+
+
+
+
+#efficiency-development-programmes-area .container-wrapper-odd {
+    background: #f3f3f3;
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+#efficiency-development-programmes-area .container-wrapper-even {
+    background: #f3fffb;
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+#efficiency-development-programmes-area .contact-info {
+    background-color: #ffffcc;
+    padding: 30px 0;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+}
+#efficiency-development-programmes-area i.fa.fa-forward {
+    color: #0071bc;
+}
+#efficiency-development-programmes-area i.fa.fa-envelope-o,
+#efficiency-development-programmes-area i.fa.fa-volume-control-phone {
+    color: #46c3e8;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
