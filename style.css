@@ -4307,11 +4307,12 @@ span.htmlEntitiesForParagraph {
     padding-bottom: 4rem !important;
 }
 #efficiency-development-programmes-area .contact-info {
-    background-color: #ffffcc;
-    padding: 30px 0;
-    text-align: center;
-    color: #000;
-    font-size: 16px;
+	background-color: #2D3748;
+	padding: 40px 0;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 7px;
 }
 #efficiency-development-programmes-area i.fa.fa-forward {
     color: #0071bc;

@@ -35,7 +35,7 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
         <div class="container my-2">
             <div class="heading-with-section-link">
                 <div class="row mb-4">
-                    <div class="col-12 text-center top-text">
+                    <div class="col-12 text-center">
                         <h4 class="text-primary font-weight-bold edp-heading-box">Coaching/Counselling/Consulting (Online and In-Person):</h4>
                     </div>
                 </div>
@@ -238,7 +238,6 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
             <div class="mb-4">
                 <h3 class="text-center h3 double-line-under-text">PERSONAL INTERVIEWS FOR EXECUTIVE PROMOTIONS - TIPS TO SUCCEED</h3>
             </div>
-
             <div class="mt-3">
                 <ul class="list-group">
                     <li class="mb-2"><i class="fa fa-forward"></i> Current Issues in the Economy and the Financial Sector - What should be an ideal viewpoint</li>
@@ -246,9 +245,14 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
                     <li class="mb-2"><i class="fa fa-forward"></i> The Tone, Tenor and the Body Language</li>
                 </ul>
             </div>
+        </div>
+    </section>
 
-            <div class="mt-3">
-                <h5 class="h5">eLearning Courses</h5>
+
+    <section class="container-wrapper-even pt-5 pb-5">
+        <div class="container my-2">
+            <h4 class="text-primary font-weight-bold text-center edp-heading-box">eLearning Courses:</h4>
+            <div class="mt-3 mt-5">
                 <ul class="list-group">
                     <li class="mb-2"><i class="fa fa-forward"></i> Supervisory and Regulatory Guidelines and Expectations in various areas of operation</li>
                     <li class="mb-2"><i class="fa fa-forward"></i> Functioning of an NBFC</li>
@@ -261,6 +265,11 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
             </div>
         </div>
     </section>
+
+
+
+
+
 
 </section>
 <!--== Team Area End ==-->
