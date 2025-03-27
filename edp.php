@@ -249,7 +249,7 @@ $row_content1 = mysqli_fetch_assoc($res_content1);
     </section>
 
 
-    <section class="container-wrapper-even pt-5 pb-5">
+    <section class="container-wrapper-even pb-5">
         <div class="container my-2">
             <h4 class="text-primary font-weight-bold text-center edp-heading-box">eLearning Courses:</h4>
             <div class="mt-3 mt-5">
