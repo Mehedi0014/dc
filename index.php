@@ -110,7 +110,7 @@ include_once 'common/header.php'; ?>
 
                         <!-- <h5 class="commingSoonOffered">Coming Soon</h5> -->
                         <!-- <a class="btn btn-primary">Coming Soon</a> -->
-                        <a href="<?php echo $base_url; ?>training.php" class="btn btn-primary">Explore</a>
+                        <a href="<?php echo $base_url; ?>edp.php" class="btn btn-primary">Explore</a>
                     </div>
                 </div>
                 <div class="col-lg-6"></div>                  
